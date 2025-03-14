@@ -33,7 +33,9 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("https://magento.softwaretestingboard.com/");
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
+
     }
 
     @BeforeMethod

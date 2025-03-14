@@ -4,23 +4,42 @@ import base.BaseTest;
 import com.aventstack.extentreports.Status;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.HomePage;
+import pages.LoginPage;
+import pages.MyAccount;
+import utils.ScreenshotUtil;
+import utils.UserData;
 
 public class TC003_LoginTest extends BaseTest {
 
-    @Test
-    public void loginTest() {
-        test.get().log(Status.INFO, "Navigating to login page");
-        driver.get("https://magento.softwaretestingboard.com/customer/account/login/");
+    @Test(priority = 1, description = "Verify user login functionality.")
+    public void login_Test() {
+        HomePage homePage = new HomePage(driver);
+        test.get().log(Status.INFO, "Navigating to the login page.");
+        homePage.clickSignIn();
 
-        // Simulated login check
-        boolean loginSuccess = true; // Replace with actual login logic
+        LoginPage loginPage = new LoginPage(driver);
 
-        if (loginSuccess) {
-            test.get().log(Status.PASS, "Login successful");
-        } else {
-            test.get().log(Status.FAIL, "Login failed");
-        }
+        String email = UserData.email;
+        String password = UserData.password;
 
-        Assert.assertTrue(loginSuccess, "Login failed!");
+        test.get().log(Status.INFO, "Logging in with email: " + email);
+        loginPage.login(email, password);
+        loginPage.submitbtn();
+
+        String expectedMessage = "My Account";
+        String actualMessage = loginPage.getWelcomeMessage();
+
+        test.get().log(Status.INFO, "Verifying welcome message: Expected - '" + expectedMessage + "', Actual - '" + actualMessage + "'.");
+        Assert.assertEquals(actualMessage, expectedMessage, "Login failed!");
+
+        test.get().log(Status.PASS, "Login successful.");
+
+        MyAccount ma = new MyAccount(driver);
+        ma.clickheaderOptions();
+        ma.clickSignOutbtn();
+
+        ScreenshotUtil.takeScreenshot(driver, "login_Test");
     }
+
 }

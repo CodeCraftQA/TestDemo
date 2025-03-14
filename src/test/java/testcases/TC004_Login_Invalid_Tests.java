@@ -5,33 +5,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
+import pages.MyAccount;
+import utils.ScreenshotUtil;
 import utils.UserData;
 
-public class TC004_Login_Test_Valid_And_Invalid extends BaseTest {
+public class TC004_Login_Invalid_Tests extends BaseTest {
 
-    @Test(priority = 1, dependsOnMethods = "testUserRegistration")
-    public void testValidUserLogin() {
-
-        if (MyEmailAdd == null || MyPassword == null) {
-            throw new RuntimeException("Email or Password is null!");
-        }
-        Website_Availability(); // Ensure this method is defined
-        HomePage homePage = new HomePage(driver);
-        homePage.clickSignIn();
-
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(MyEmailAdd, MyPassword);
-        loginPage.submitbtn();
-
-        String expectedMessage = "Welcome, Test User!"; // Make sure this matches the expected message
-        String actualMessage = loginPage.getWelcomeMessage();  // Implement this method in LoginPage
-
-        Assert.assertEquals(actualMessage, expectedMessage, "Login failed!");
-        System.out.println("✅ Valid Login Test Passed");
-    }
-
-    @Test(priority = 2)
-    public void testInvalidCredentialsLogin() {
+    @Test(priority = 1, dependsOnMethods = "testcases.TC002_SignUp_Account.test_User_Registration")
+    public void test_Invalid_Credentials_Login() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
 
@@ -39,15 +20,16 @@ public class TC004_Login_Test_Valid_And_Invalid extends BaseTest {
         loginPage.login("invalid@test.com", "WrongPass123");
         loginPage.submitbtn();
 
-        String errorMessage = loginPage.getErrorMessage();  // Implement this method in LoginPage
+        String errorMessage = loginPage.getErrorMessage();
 
-        Assert.assertTrue(errorMessage.contains("Invalid login or password"), "Expected error message not displayed!");
-        System.out.println("✅ Invalid Credentials Test Passed");
+        Assert.assertTrue(errorMessage.contains("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later."), "Expected error message not displayed!");
+        System.out.println("✅ Not Able To Login Using Invalid Credentials : Test Passed");
+
+        ScreenshotUtil.takeScreenshot(driver, "test_Invalid_Credentials_Login");
     }
 
-    @Test(priority = 3)
-    public void testBlankFieldsLogin() {
-
+    @Test(priority = 2)
+    public void test_Blank_Fields_Login() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
 
@@ -55,15 +37,29 @@ public class TC004_Login_Test_Valid_And_Invalid extends BaseTest {
         loginPage.login("", "");
         loginPage.submitbtn();
 
-        String errorMessage = loginPage.getErrorMessage();
+        String errorMessage = loginPage.getEmailPwdBlankMessage();
+        Assert.assertTrue(errorMessage.contains("This is a required field."), "Expected error message not displayed!");
+        System.out.println("✅ Not Able To Login Without Entering EmailId, Password and Clicking Submit Button : Test Passed");
+        ScreenshotUtil.takeScreenshot(driver, "testValidLogin");
+    }
+    @Test(priority = 3)
+    public void testInvalidEmailidField(){
+        HomePage homePage = new HomePage(driver);
+        homePage.clickSignIn();
 
-        Assert.assertTrue(errorMessage.contains("This is a required field"), "Expected error message not displayed!");
-        System.out.println("✅ Blank Fields Test Passed");
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login("te", "Test@1234");
+        loginPage.submitbtn();
+
+        String errorMessage = loginPage.incompleteEmailAdd();
+        System.out.println(errorMessage);
+        Assert.assertTrue(errorMessage.contains("Please enter a valid email address (Ex: johndoe@domain.com)."), "Expected error message not displayed!");
+        System.out.println("✅ Not Able To Login Without Entering Full EmailId Clicking Submit Button : Test Passed");
+        ScreenshotUtil.takeScreenshot(driver, "test_Blank_Fields_Login");
     }
 
     @Test(priority = 4)
-    public void testInvalidEmailFormat() {
-
+    public void test_Invalid_Email_Format() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
 
@@ -71,15 +67,15 @@ public class TC004_Login_Test_Valid_And_Invalid extends BaseTest {
         loginPage.login("invalidemail", "SomePass123");
         loginPage.submitbtn();
 
-        String errorMessage = loginPage.getErrorMessage();
+        String errorMessage = loginPage.incompleteEmailAdd();
 
-        Assert.assertTrue(errorMessage.contains("Please enter a valid email address"), "Expected error message not displayed!");
-        System.out.println("✅ Invalid Email Format Test Passed");
+        Assert.assertTrue(errorMessage.contains("Please enter a valid email address (Ex: johndoe@domain.com)."), "Expected error message not displayed!");
+        System.out.println("✅ Not Able To Login Using Invalid Email Format : Test Passed");
+        ScreenshotUtil.takeScreenshot(driver, "test_Invalid_Email_Format");
     }
 
     @Test(priority = 5)
-    public void testSQLInjectionAttempt() {
-
+    public void test_SQLInjection_Attempt() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
 
@@ -87,34 +83,36 @@ public class TC004_Login_Test_Valid_And_Invalid extends BaseTest {
         loginPage.login("' OR 1=1 --", "randompass");
         loginPage.submitbtn();
 
-        String errorMessage = loginPage.getErrorMessage();
+        String errorMessage = loginPage.incompleteEmailAdd();
 
-        Assert.assertTrue(errorMessage.contains("Invalid login or password"), "Possible SQL Injection vulnerability!");
-        System.out.println("✅ SQL Injection Test Passed");
+        Assert.assertTrue(errorMessage.contains("Please enter a valid email address (Ex: johndoe@domain.com)."), "Possible SQL Injection vulnerability!");
+        System.out.println("✅ Not Able To Login Using SQL Injection : Test Passed");
+        ScreenshotUtil.takeScreenshot(driver, "test_SQLInjection_Attempt");
     }
 
     @Test(priority = 6)
-    public void testLogoutAndRelogin() {
-
+    public void test_Logout_And_Relogin() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
 
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(MyEmailAdd, MyPassword);
+        loginPage.login(UserData.email, UserData.password);
         loginPage.submitbtn();
 
-        homePage.clickLogout();  // Implement logout functionality in HomePage
+        MyAccount ma = new MyAccount(driver);
+        ma.clickheaderOptions();
+        ma.clickSignOutbtn();
+
         homePage.clickSignIn();
 
-        loginPage.login(MyEmailAdd, MyPassword);
+        loginPage.login(UserData.email, UserData.password);
         loginPage.submitbtn();
 
-        String expectedMessage = "Welcome, Test User!"; // Ensure this matches the expected message
+        String expectedMessage = "My Account";
         String actualMessage = loginPage.getWelcomeMessage();
 
-        Assert.assertEquals(actualMessage, expectedMessage, "Re-login failed!");
-        System.out.println("✅ Logout & Re-login Test Passed");
-
-}
-
+        Assert.assertEquals(actualMessage, expectedMessage, "Expected error message not displayed!");
+        System.out.println("✅Able To Logout & Re-login : Test Passed");
+        ScreenshotUtil.takeScreenshot(driver, "test_Logout_And_Relogin");
+    }
 }

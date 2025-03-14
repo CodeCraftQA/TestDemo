@@ -44,4 +44,6 @@ public class SignUpPage extends BasePage {
     public String getSuccessMessage() {
         return getText(successMessage);
     }
+
+
 }

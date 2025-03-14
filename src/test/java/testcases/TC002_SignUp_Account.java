@@ -10,10 +10,10 @@ import pages.SignUpPage;
 import utils.ScreenshotUtil;
 import utils.UserData;
 
-public class TC002_SignUpAccount extends BaseTest {
+public class TC002_SignUp_Account extends BaseTest {
 
     @Test(description = "Verify user registration functionality.")
-    public void testUserRegistration() {
+    public void test_User_Registration() {
         HomePage homePage = new HomePage(driver);
         test.get().log(Status.INFO, "Navigating to the signup page.");
         homePage.clickSignUp();
@@ -43,7 +43,7 @@ public class TC002_SignUpAccount extends BaseTest {
         ma.clickheaderOptions();
         ma.clickSignOutbtn();
 
-        ScreenshotUtil.takeScreenshot(driver, "testUserRegistration");
+        ScreenshotUtil.takeScreenshot(driver, "test_User_Registration");
 
     }
 }

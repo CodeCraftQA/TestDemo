@@ -1,9 +1,15 @@
+
 <suite name="Test Suite">
     <test name="Test Execution">
         <classes>
-            <class name="testcases.TC001_IsHomePageVisible"/>
-            <class name="testcases.TC002_SignUpAccount"/>
+            <class name="testcases.TC001_Is_Home_Page_Visible"/>
+            <class name="testcases.TC002_SignUp_Account"/>
             <class name ="testcases.TC003_LoginTest"/>
+            <class name ="testcases.TC004_Login_Invalid_Tests"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
 </suite>

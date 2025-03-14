@@ -26,11 +26,11 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//h1[@class='page-title']/span[@class='base']")
     private WebElement myAccountHeader;
 
-    @FindBy(xpath = "//div[@id='email-error' and contains(@class, 'mage-error')]")
-    private WebElement emailErrorMessage;
+    @FindBy(xpath = "//div[@id='pass-error']")
+    private WebElement emailPwdBlankMessage;
 
-    @FindBy(xpath = "//div[@id='pass-error' and contains(@class, 'mage-error')]")
-    private WebElement passwordErrorMessage;
+    @FindBy(xpath = "//div[@id='email-error']")
+    private WebElement incompleteEmail;
 
     public void login(String emailId, String pwd) {
         sendKeys(email, emailId);
@@ -45,16 +45,13 @@ public class LoginPage extends BasePage {
         return errorMessage.getText();
     }
 
-    public String getEmailErrorMessage() {
-        return emailErrorMessage.getText();
+    public String getEmailPwdBlankMessage() {
+        return emailPwdBlankMessage.getText();
     }
-
-    public String getPasswordErrorMessage() {
-        return passwordErrorMessage.getText();
-    }
-
     public String getWelcomeMessage() {
         return myAccountHeader.getText().trim(); // Ensure extra spaces are removed
     }
-
+    public String incompleteEmailAdd(){
+        return incompleteEmail.getText();
+    }
 }
