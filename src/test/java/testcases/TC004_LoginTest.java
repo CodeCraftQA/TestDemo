@@ -41,7 +41,7 @@ public class TC004_LoginTest extends BaseTest {
         String errorMessage = loginPage.getErrorMessage();
 
         Assert.assertTrue(errorMessage.contains("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later."), "Expected error message not displayed!");
-        System.out.println("✅ Unable To Login Using Invalid Credentials Test Passed");
+        System.out.println("✅ Unable To Login Using Invalid Credentials : Test Passed");
     }
 
     @Test(priority = 3)
@@ -59,7 +59,7 @@ public class TC004_LoginTest extends BaseTest {
 
         Assert.assertTrue(emailError.contains("This is a required field"), "Email validation error not displayed!");
         Assert.assertTrue(passwordError.contains("This is a required field"), "Password validation error not displayed!");
-        System.out.println("✅ Blank Fields Test Passed");
+        System.out.println("✅ Not Able to Login After Leaving UserID and Password Field Empty and Clicking Submit : Test Passed");
     }
 
     @Test(priority = 4)
@@ -75,6 +75,6 @@ public class TC004_LoginTest extends BaseTest {
         String emailError = loginPage.getEmailErrorMessage();
 
         Assert.assertTrue(emailError.contains("Please enter a valid email address"), "Expected error message not displayed!");
-        System.out.println("✅ Invalid Email Format Test Passed");
+        System.out.println("✅ Not Able To Login After Entering Invalid Email Format  : Test Passed");
     }
 }
