@@ -3,11 +3,10 @@ package testcases;
 import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.HomePage;
 import pages.SignUpPage;
 
-public class TC003_SignUpAccount extends BaseTest {
+public class TC002_SignUpAccount extends BaseTest {
 
     @Test
     public void testUserRegistration() {

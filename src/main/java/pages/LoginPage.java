@@ -23,8 +23,8 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
     private WebElement errorMessage;
 
-    @FindBy(xpath = "//span[@class='base']")
-    private WebElement welcomeMessage;
+    @FindBy(xpath = "//h1[@class='page-title']/span[@class='base']")
+    private WebElement myAccountHeader;
 
     @FindBy(xpath = "//div[@id='email-error' and contains(@class, 'mage-error')]")
     private WebElement emailErrorMessage;
@@ -54,6 +54,7 @@ public class LoginPage extends BasePage {
     }
 
     public String getWelcomeMessage() {
-        return welcomeMessage.getText();
+        return myAccountHeader.getText().trim(); // Ensure extra spaces are removed
     }
+
 }

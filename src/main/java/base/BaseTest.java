@@ -17,8 +17,8 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup() {
-        logger = LogManager.getLogger(this.getClass());
         WebDriverManager.chromedriver().setup();
+        logger = LogManager.getLogger(this.getClass());
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://magento.softwaretestingboard.com/");

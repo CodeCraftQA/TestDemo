@@ -1,7 +1,7 @@
-# Created at 2025-03-14T02:47:31.413
+# Created at 2025-03-14T16:33:39.991
 org.testng.TestNGException: 
-testcases.TC004_LoginTest.testUserLogin() depends on nonexistent method testUserRegistration
-	at org.testng.internal.MethodHelper.findDependedUponMethods(MethodHelper.java:212)
+testcases.TC003_LoginTest.testValidUserLogin() is depending on method public void testcases.TC002_SignUpAccount.testUserRegistration(), which is not annotated with @Test or not included.
+	at org.testng.internal.MethodHelper.findDependedUponMethods(MethodHelper.java:204)
 	at org.testng.internal.MethodHelper.topologicalSort(MethodHelper.java:351)
 	at org.testng.internal.MethodHelper.sortMethods(MethodHelper.java:485)
 	at org.testng.internal.MethodHelper.lambda$collectAndOrderMethods$1(MethodHelper.java:77)

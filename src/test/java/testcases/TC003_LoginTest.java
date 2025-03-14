@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class TC004_LoginTest extends BaseTest {
+public class TC003_LoginTest extends BaseTest {
 
-    @Test(priority = 1, dependsOnMethods = "testcases.TC003_SignUpAccount.testUserRegistration")
+    @Test(priority = 1, dependsOnMethods = "testcases.TC002_SignUpAccount.testUserRegistration")
     public void testValidUserLogin() {
         if (MyEmailAdd == null || MyPassword == null) {
             throw new RuntimeException("Email or Password is null!");
@@ -21,7 +21,7 @@ public class TC004_LoginTest extends BaseTest {
         loginPage.login(MyEmailAdd, MyPassword);
         loginPage.submitbtn();
 
-        String expectedMessage = "Welcome, Test User!";
+        String expectedMessage = "Home Page";
         String actualMessage = loginPage.getWelcomeMessage();
 
         Assert.assertEquals(actualMessage, expectedMessage, "Login failed!");

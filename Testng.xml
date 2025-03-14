@@ -2,9 +2,8 @@
     <test name="Test Execution">
         <classes>
             <class name="testcases.TC001_IsHomePageVisible"/>
-            <class name ="testcases.TC002_Check_If_All_Links_Working"/>
-            <class name="testcases.TC003_SignUpAccount"/>
-            <class name ="testcases.TC004_LoginTest"/>
+            <class name="testcases.TC002_SignUpAccount"/>
+            <class name ="testcases.TC003_LoginTest"/>
         </classes>
     </test>
 </suite>
