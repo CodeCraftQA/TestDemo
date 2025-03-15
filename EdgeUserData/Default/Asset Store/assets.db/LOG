@@ -1,0 +1,5 @@
+2025/03/16-01:25:04.100 2120 Reusing MANIFEST C:\Users\Gaurav\eclipse-workspace\TestDemo\EdgeUserData\Default\Asset Store\assets.db/MANIFEST-000001
+2025/03/16-01:25:04.112 2120 Recovering log #3
+2025/03/16-01:25:04.117 2120 Level-0 table #3: started
+2025/03/16-01:25:04.146 2120 Level-0 table #3: 345364 bytes OK
+2025/03/16-01:25:04.159 2120 Delete type=0 #3
