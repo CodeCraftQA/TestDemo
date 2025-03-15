@@ -5,13 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title></title>
+<title>Automation Test Report</title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
-<style type="text/css"></style></head><body class="spa -report standard">
+<style type="text/css"></style></head><body class="spa -report dark">
   <div class="app">
     <div class="layout">
 <div class="header navbar">
@@ -32,10 +32,10 @@
 </ul>
 <ul class="nav-right">
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary"></span></a>
+<a href="#"><span class="badge badge-primary">Selenium Test Execution Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 16, 2025 03:03:29 AM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 16, 2025 03:55:41 AM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -72,17 +77,23 @@
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">FIREFOX</a><a class="dropdown-item" href="#">CHROME</a><a class="dropdown-item" href="#">EDGE</a>
+</ul>
+</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">is_Home_Page_Displayed</p>
+            <p class="name">is_Home_Page_Displayed - [CHROME]</p>
             <p class="text-sm">
-              <span>3:03:30 AM</span> / <span>00:00:10:387</span>
+              <span>3:55:41 AM</span> / <span>00:00:10:413</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -90,15 +101,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">is_Home_Page_Displayed</h5>
-<span class='badge badge-success'>03.16.2025 3:03:30 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:03:40 AM</span>
-<span class='badge badge-default'>00:00:10:387</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<h5 class="test-status text-pass">is_Home_Page_Displayed - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:55:41 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:55:51 AM</span>
+<span class='badge badge-default'>00:00:10:413</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -106,28 +118,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:38 AM</td>
+        <td>3:55:49 AM</td>
         <td>
           Navigating to the Magento homepage.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:40 AM</td>
+        <td>3:55:51 AM</td>
         <td>
           Verifying page title: Expected - 'Home Page', Actual - 'Home Page'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:40 AM</td>
+        <td>3:55:51 AM</td>
         <td>
           Home Page is displayed successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:40 AM</td>
+        <td>3:55:51 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -139,12 +151,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">is_Home_Page_Displayed</p>
+            <p class="name">is_Home_Page_Displayed - [EDGE]</p>
             <p class="text-sm">
-              <span>3:03:30 AM</span> / <span>00:00:15:025</span>
+              <span>3:55:41 AM</span> / <span>00:00:09:920</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -152,15 +164,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">is_Home_Page_Displayed</h5>
-<span class='badge badge-success'>03.16.2025 3:03:30 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:03:45 AM</span>
-<span class='badge badge-default'>00:00:15:025</span>
+<h5 class="test-status text-pass">is_Home_Page_Displayed - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:55:41 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:55:51 AM</span>
+<span class='badge badge-default'>00:00:09:920</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -168,28 +181,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:42 AM</td>
+        <td>3:55:49 AM</td>
         <td>
           Navigating to the Magento homepage.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:44 AM</td>
+        <td>3:55:50 AM</td>
         <td>
           Verifying page title: Expected - 'Home Page', Actual - 'Home Page'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:44 AM</td>
+        <td>3:55:50 AM</td>
         <td>
           Home Page is displayed successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:45 AM</td>
+        <td>3:55:51 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -199,14 +212,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">is_Home_Page_Displayed</p>
+            <p class="name">is_Home_Page_Displayed - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:03:30 AM</span> / <span>00:00:15:258</span>
+              <span>3:55:41 AM</span> / <span>00:00:16:903</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -214,15 +227,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">is_Home_Page_Displayed</h5>
-<span class='badge badge-success'>03.16.2025 3:03:30 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:03:45 AM</span>
-<span class='badge badge-default'>00:00:15:258</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<h5 class="test-status text-pass">is_Home_Page_Displayed - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:55:41 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:55:58 AM</span>
+<span class='badge badge-default'>00:00:16:903</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -230,28 +244,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:40 AM</td>
+        <td>3:55:53 AM</td>
         <td>
           Navigating to the Magento homepage.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:45 AM</td>
+        <td>3:55:58 AM</td>
         <td>
           Verifying page title: Expected - 'Home Page', Actual - 'Home Page'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:45 AM</td>
+        <td>3:55:58 AM</td>
         <td>
           Home Page is displayed successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:45 AM</td>
+        <td>3:55:58 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -263,12 +277,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="4"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">test_User_Registration</p>
+            <p class="name">test_User_Registration - [EDGE]</p>
             <p class="text-sm">
-              <span>3:03:41 AM</span> / <span>00:00:17:192</span>
+              <span>3:55:52 AM</span> / <span>00:00:14:940</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -276,15 +290,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_User_Registration</h5>
-<span class='badge badge-success'>03.16.2025 3:03:41 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:03:58 AM</span>
-<span class='badge badge-default'>00:00:17:192</span>
+<h5 class="test-status text-pass">test_User_Registration - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:55:52 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:07 AM</span>
+<span class='badge badge-default'>00:00:14:940</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -292,35 +307,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:49 AM</td>
+        <td>3:55:59 AM</td>
         <td>
           Navigating to the signup page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:51 AM</td>
+        <td>3:56:01 AM</td>
         <td>
-          Registering user with email: User1742074431690@test.com
+          Registering user with email: User1742077561220@test.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:56 AM</td>
+        <td>3:56:05 AM</td>
         <td>
           Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:56 AM</td>
+        <td>3:56:05 AM</td>
         <td>
           User registration successful.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:03:58 AM</td>
+        <td>3:56:07 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -332,12 +347,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="5"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_User_Registration</p>
+            <p class="name">test_User_Registration - [CHROME]</p>
             <p class="text-sm">
-              <span>3:03:46 AM</span> / <span>00:00:18:313</span>
+              <span>3:55:52 AM</span> / <span>00:00:16:617</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -345,15 +360,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_User_Registration</h5>
-<span class='badge badge-success'>03.16.2025 3:03:46 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:04 AM</span>
-<span class='badge badge-default'>00:00:18:313</span>
+<h5 class="test-status text-pass">test_User_Registration - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:55:52 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:09 AM</span>
+<span class='badge badge-default'>00:00:16:617</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -361,35 +377,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:56 AM</td>
+        <td>3:56:00 AM</td>
         <td>
           Navigating to the signup page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:03:57 AM</td>
+        <td>3:56:02 AM</td>
         <td>
-          Registering user with email: User1742074437882@test.com
+          Registering user with email: User1742077562785@test.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:02 AM</td>
+        <td>3:56:06 AM</td>
         <td>
           Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:02 AM</td>
+        <td>3:56:06 AM</td>
         <td>
           User registration successful.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:04 AM</td>
+        <td>3:56:09 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -401,12 +417,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="6"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_User_Registration</p>
+            <p class="name">test_User_Registration - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:03:47 AM</span> / <span>00:00:23:677</span>
+              <span>3:56:00 AM</span> / <span>00:00:22:926</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -414,15 +430,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_User_Registration</h5>
-<span class='badge badge-success'>03.16.2025 3:03:47 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:11 AM</span>
-<span class='badge badge-default'>00:00:23:677</span>
+<h5 class="test-status text-pass">test_User_Registration - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:00 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:23 AM</span>
+<span class='badge badge-default'>00:00:22:926</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -430,35 +447,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:02 AM</td>
+        <td>3:56:12 AM</td>
         <td>
           Navigating to the signup page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:03 AM</td>
+        <td>3:56:15 AM</td>
         <td>
-          Registering user with email: User1742074443799@test.com
+          Registering user with email: User1742077575447@test.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:08 AM</td>
+        <td>3:56:21 AM</td>
         <td>
           Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:08 AM</td>
+        <td>3:56:21 AM</td>
         <td>
           User registration successful.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:11 AM</td>
+        <td>3:56:23 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -470,12 +487,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="7"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">login_Test</p>
+            <p class="name">login_Test - [EDGE]</p>
             <p class="text-sm">
-              <span>3:03:59 AM</span> / <span>00:00:13:156</span>
+              <span>3:56:08 AM</span> / <span>00:00:16:519</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -483,15 +500,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">login_Test</h5>
-<span class='badge badge-success'>03.16.2025 3:03:59 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:12 AM</span>
-<span class='badge badge-default'>00:00:13:156</span>
+<h5 class="test-status text-pass">login_Test - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:08 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:25 AM</span>
+<span class='badge badge-default'>00:00:16:519</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -499,35 +517,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:05 AM</td>
+        <td>3:56:15 AM</td>
         <td>
           Navigating to the login page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:07 AM</td>
+        <td>3:56:18 AM</td>
         <td>
-          Logging in with email: User1742074443799@test.com
+          Logging in with email: User1742077575447@test.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:09 AM</td>
+        <td>3:56:21 AM</td>
         <td>
           Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:09 AM</td>
+        <td>3:56:21 AM</td>
         <td>
           Login successful.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:12 AM</td>
+        <td>3:56:25 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -539,12 +557,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="8"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">login_Test</p>
+            <p class="name">login_Test - [CHROME]</p>
             <p class="text-sm">
-              <span>3:04:05 AM</span> / <span>00:00:18:576</span>
+              <span>3:56:10 AM</span> / <span>00:00:17:692</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -552,15 +570,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">login_Test</h5>
-<span class='badge badge-success'>03.16.2025 3:04:05 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:24 AM</span>
-<span class='badge badge-default'>00:00:18:576</span>
+<h5 class="test-status text-pass">login_Test - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:10 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:27 AM</span>
+<span class='badge badge-default'>00:00:17:692</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -568,35 +587,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:17 AM</td>
+        <td>3:56:20 AM</td>
         <td>
           Navigating to the login page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:19 AM</td>
+        <td>3:56:22 AM</td>
         <td>
-          Logging in with email: User1742074443799@test.com
+          Logging in with email: User1742077575447@test.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:22 AM</td>
+        <td>3:56:25 AM</td>
         <td>
           Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:22 AM</td>
+        <td>3:56:25 AM</td>
         <td>
           Login successful.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:24 AM</td>
+        <td>3:56:27 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -608,12 +627,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="9"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_Invalid_Credentials_Login</p>
+            <p class="name">login_Test - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:04:13 AM</span> / <span>00:00:11:040</span>
+              <span>3:56:25 AM</span> / <span>00:00:22:554</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -621,23 +640,52 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Invalid_Credentials_Login</h5>
-<span class='badge badge-success'>03.16.2025 3:04:13 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:24 AM</span>
-<span class='badge badge-default'>00:00:11:040</span>
+<h5 class="test-status text-pass">login_Test - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:25 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:48 AM</span>
+<span class='badge badge-default'>00:00:22:554</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:56:37 AM</td>
+        <td>
+          Navigating to the login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:56:41 AM</td>
+        <td>
+          Logging in with email: User1742077575447@test.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:56:46 AM</td>
+        <td>
+          Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
+        </td>
+      </tr>
+      <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:24 AM</td>
+        <td>3:56:46 AM</td>
+        <td>
+          Login successful.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:56:48 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -647,68 +695,49 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="10"
+        <li class="test-item"  status="fail" test-id="10"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">login_Test</p>
+            <p class="name">test_Invalid_Credentials_Login - [EDGE]</p>
             <p class="text-sm">
-              <span>3:04:13 AM</span> / <span>00:00:24:081</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>3:56:26 AM</span> / <span>00:00:37:840</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">login_Test</h5>
-<span class='badge badge-success'>03.16.2025 3:04:13 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:37 AM</span>
-<span class='badge badge-default'>00:00:24:081</span>
+<h5 class="test-status text-fail">test_Invalid_Credentials_Login - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:26 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:04 AM</span>
+<span class='badge badge-default'>00:00:37:840</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/test_Invalid_Credentials_Login_1742077624109.png' src="C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/test_Invalid_Credentials_Login_1742077624109.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:24 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:57:04 AM</td>
         <td>
-          Navigating to the login page.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:28 AM</td>
-        <td>
-          Logging in with email: User1742074443799@test.com
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:04:32 AM</td>
-        <td>
-          Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:32 AM</td>
-        <td>
-          Login successful.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:37 AM</td>
-        <td>
-          Test Passed Successfully.
+          Test Failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Sign In')]' (tried for 20 second(s) with 500 milliseconds interval)
         </td>
       </tr>
   </tbody>
@@ -718,12 +747,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="11"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_Blank_Fields_Login</p>
+            <p class="name">test_Invalid_Credentials_Login - [CHROME]</p>
             <p class="text-sm">
-              <span>3:04:24 AM</span> / <span>00:00:37:984</span>
+              <span>3:56:28 AM</span> / <span>00:00:14:387</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -731,15 +760,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Blank_Fields_Login</h5>
-<span class='badge badge-success'>03.16.2025 3:04:24 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:02 AM</span>
-<span class='badge badge-default'>00:00:37:984</span>
+<h5 class="test-status text-pass">test_Invalid_Credentials_Login - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:28 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:42 AM</span>
+<span class='badge badge-default'>00:00:14:387</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -747,7 +777,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:02 AM</td>
+        <td>3:56:42 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -759,12 +789,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="12"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_Invalid_Credentials_Login</p>
+            <p class="name">test_Blank_Fields_Login - [CHROME]</p>
             <p class="text-sm">
-              <span>3:04:25 AM</span> / <span>00:00:16:853</span>
+              <span>3:56:43 AM</span> / <span>00:00:12:339</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -772,15 +802,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Invalid_Credentials_Login</h5>
-<span class='badge badge-success'>03.16.2025 3:04:25 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:42 AM</span>
-<span class='badge badge-default'>00:00:16:853</span>
+<h5 class="test-status text-pass">test_Blank_Fields_Login - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:43 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:56:55 AM</span>
+<span class='badge badge-default'>00:00:12:339</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -788,7 +819,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:42 AM</td>
+        <td>3:56:55 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -798,40 +829,41 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="13"
+        <li class="test-item"  status="pass" test-id="13"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_Invalid_Credentials_Login</p>
+            <p class="name">test_Invalid_Credentials_Login - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:04:41 AM</span> / <span>00:00:16:296</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>3:56:50 AM</span> / <span>00:00:19:889</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">test_Invalid_Credentials_Login</h5>
-<span class='badge badge-success'>03.16.2025 3:04:41 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:57 AM</span>
-<span class='badge badge-default'>00:00:16:296</span>
+<h5 class="test-status text-pass">test_Invalid_Credentials_Login - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:50 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:10 AM</span>
+<span class='badge badge-default'>00:00:19:889</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:04:57 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:57:10 AM</td>
         <td>
-          Test Failed: java.lang.AssertionError: Expected error message not displayed! expected [true] but found [false]
+          Test Passed Successfully.
         </td>
       </tr>
   </tbody>
@@ -841,12 +873,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="14"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_Blank_Fields_Login</p>
+            <p class="name">testInvalidEmailidField - [CHROME]</p>
             <p class="text-sm">
-              <span>3:04:43 AM</span> / <span>00:00:12:079</span>
+              <span>3:56:56 AM</span> / <span>00:00:36:372</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -854,15 +886,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Blank_Fields_Login</h5>
-<span class='badge badge-success'>03.16.2025 3:04:43 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:04:55 AM</span>
-<span class='badge badge-default'>00:00:12:079</span>
+<h5 class="test-status text-pass">testInvalidEmailidField - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:56:56 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:32 AM</span>
+<span class='badge badge-default'>00:00:36:372</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -870,7 +903,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:04:55 AM</td>
+        <td>3:57:32 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -882,12 +915,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="15"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">testInvalidEmailidField</p>
+            <p class="name">test_Blank_Fields_Login - [EDGE]</p>
             <p class="text-sm">
-              <span>3:04:56 AM</span> / <span>00:00:14:164</span>
+              <span>3:57:05 AM</span> / <span>00:00:11:403</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -895,15 +928,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">testInvalidEmailidField</h5>
-<span class='badge badge-success'>03.16.2025 3:04:56 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:10 AM</span>
-<span class='badge badge-default'>00:00:14:164</span>
+<h5 class="test-status text-pass">test_Blank_Fields_Login - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:05 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:16 AM</span>
+<span class='badge badge-default'>00:00:11:403</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -911,7 +945,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:10 AM</td>
+        <td>3:57:16 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -923,12 +957,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="16"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_Blank_Fields_Login</p>
+            <p class="name">test_Blank_Fields_Login - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:04:59 AM</span> / <span>00:00:15:163</span>
+              <span>3:57:12 AM</span> / <span>00:00:14:242</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -936,15 +970,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Blank_Fields_Login</h5>
-<span class='badge badge-success'>03.16.2025 3:04:59 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:14 AM</span>
-<span class='badge badge-default'>00:00:15:163</span>
+<h5 class="test-status text-pass">test_Blank_Fields_Login - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:12 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:27 AM</span>
+<span class='badge badge-default'>00:00:14:242</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -952,7 +987,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:14 AM</td>
+        <td>3:57:27 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -964,12 +999,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="17"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">testInvalidEmailidField</p>
+            <p class="name">testInvalidEmailidField - [EDGE]</p>
             <p class="text-sm">
-              <span>3:05:04 AM</span> / <span>00:00:09:812</span>
+              <span>3:57:17 AM</span> / <span>00:00:10:225</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -977,15 +1012,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">testInvalidEmailidField</h5>
-<span class='badge badge-success'>03.16.2025 3:05:04 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:13 AM</span>
-<span class='badge badge-default'>00:00:09:812</span>
+<h5 class="test-status text-pass">testInvalidEmailidField - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:17 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:28 AM</span>
+<span class='badge badge-default'>00:00:10:225</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -993,7 +1029,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:13 AM</td>
+        <td>3:57:28 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1005,12 +1041,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="18"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_Invalid_Email_Format</p>
+            <p class="name">testInvalidEmailidField - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:05:12 AM</span> / <span>00:00:15:332</span>
+              <span>3:57:29 AM</span> / <span>00:00:19:577</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1018,15 +1054,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Invalid_Email_Format</h5>
-<span class='badge badge-success'>03.16.2025 3:05:12 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:27 AM</span>
-<span class='badge badge-default'>00:00:15:332</span>
+<h5 class="test-status text-pass">testInvalidEmailidField - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:29 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:48 AM</span>
+<span class='badge badge-default'>00:00:19:577</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1034,7 +1071,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:27 AM</td>
+        <td>3:57:48 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1046,12 +1083,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="19"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">test_Invalid_Email_Format</p>
+            <p class="name">test_Invalid_Email_Format - [EDGE]</p>
             <p class="text-sm">
-              <span>3:05:14 AM</span> / <span>00:00:45:558</span>
+              <span>3:57:29 AM</span> / <span>00:00:10:536</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1059,15 +1096,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Invalid_Email_Format</h5>
-<span class='badge badge-success'>03.16.2025 3:05:14 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:59 AM</span>
-<span class='badge badge-default'>00:00:45:558</span>
+<h5 class="test-status text-pass">test_Invalid_Email_Format - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:29 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:39 AM</span>
+<span class='badge badge-default'>00:00:10:536</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1075,7 +1113,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:59 AM</td>
+        <td>3:57:39 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1087,12 +1125,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="20"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">testInvalidEmailidField</p>
+            <p class="name">test_Invalid_Email_Format - [CHROME]</p>
             <p class="text-sm">
-              <span>3:05:17 AM</span> / <span>00:00:14:879</span>
+              <span>3:57:34 AM</span> / <span>00:00:10:749</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1100,15 +1138,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">testInvalidEmailidField</h5>
-<span class='badge badge-success'>03.16.2025 3:05:17 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:32 AM</span>
-<span class='badge badge-default'>00:00:14:879</span>
+<h5 class="test-status text-pass">test_Invalid_Email_Format - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:34 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:44 AM</span>
+<span class='badge badge-default'>00:00:10:749</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1116,7 +1155,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:32 AM</td>
+        <td>3:57:44 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1128,12 +1167,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="21"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">test_SQLInjection_Attempt</p>
+            <p class="name">test_SQLInjection_Attempt - [EDGE]</p>
             <p class="text-sm">
-              <span>3:05:28 AM</span> / <span>00:00:11:438</span>
+              <span>3:57:40 AM</span> / <span>00:00:10:348</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1141,15 +1180,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_SQLInjection_Attempt</h5>
-<span class='badge badge-success'>03.16.2025 3:05:28 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:40 AM</span>
-<span class='badge badge-default'>00:00:11:438</span>
+<h5 class="test-status text-pass">test_SQLInjection_Attempt - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:40 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:57:51 AM</span>
+<span class='badge badge-default'>00:00:10:348</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1157,7 +1197,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:40 AM</td>
+        <td>3:57:51 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1169,12 +1209,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="22"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_Invalid_Email_Format</p>
+            <p class="name">test_SQLInjection_Attempt - [CHROME]</p>
             <p class="text-sm">
-              <span>3:05:34 AM</span> / <span>00:00:14:858</span>
+              <span>3:57:45 AM</span> / <span>00:00:14:829</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1182,15 +1222,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Invalid_Email_Format</h5>
-<span class='badge badge-success'>03.16.2025 3:05:34 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:05:49 AM</span>
-<span class='badge badge-default'>00:00:14:858</span>
+<h5 class="test-status text-pass">test_SQLInjection_Attempt - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:45 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:58:00 AM</span>
+<span class='badge badge-default'>00:00:14:829</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1198,7 +1239,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:05:49 AM</td>
+        <td>3:58:00 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1208,55 +1249,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="23"
+        <li class="test-item"  status="fail" test-id="23"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_Logout_And_Relogin</p>
+            <p class="name">test_Invalid_Email_Format - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:05:41 AM</span> / <span>00:00:22:395</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">test_Logout_And_Relogin</h5>
-<span class='badge badge-success'>03.16.2025 3:05:41 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:06:03 AM</span>
-<span class='badge badge-default'>00:00:22:395</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:06:03 AM</td>
-        <td>
-          Test Passed Successfully.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="24"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">test_SQLInjection_Attempt</p>
-            <p class="text-sm">
-              <span>3:05:51 AM</span> / <span>00:00:20:771</span>
+              <span>3:57:50 AM</span> / <span>00:00:30:459</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -1264,32 +1264,83 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">test_SQLInjection_Attempt</h5>
-<span class='badge badge-success'>03.16.2025 3:05:51 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:06:12 AM</span>
-<span class='badge badge-default'>00:00:20:771</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<h5 class="test-status text-fail">test_Invalid_Email_Format - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:50 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:58:21 AM</span>
+<span class='badge badge-default'>00:00:30:459</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/test_Invalid_Email_Format_1742077701253.png' src="C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/test_Invalid_Email_Format_1742077701253.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:06:12 AM</td>
+        <td>3:58:21 AM</td>
         <td>
           Test Failed: org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='email-error']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2e97941c-76ad-4da0-8cd0-3bcd60879ca2, findElement {value=//div[@id='email-error'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37304, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
+Command: [ea135a8d-b74b-463c-b84f-91bc14381336, findElement {using=xpath, value=//div[@id='email-error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4504, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ea135a8d-b74b-463c-b84f-91bc14381336
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="EDGE"
+          device="">
+          <div class="test-detail">
+            <p class="name">test_Logout_And_Relogin - [EDGE]</p>
+            <p class="text-sm">
+              <span>3:57:52 AM</span> / <span>00:00:22:880</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">test_Logout_And_Relogin - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:57:52 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:58:15 AM</span>
+<span class='badge badge-default'>00:00:22:880</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:15 AM</td>
+        <td>
+          Test Passed Successfully.
         </td>
       </tr>
   </tbody>
@@ -1299,12 +1350,12 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
         </li>
         <li class="test-item"  status="pass" test-id="25"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_SQLInjection_Attempt</p>
+            <p class="name">test_Logout_And_Relogin - [CHROME]</p>
             <p class="text-sm">
-              <span>3:06:00 AM</span> / <span>00:00:09:009</span>
+              <span>3:58:01 AM</span> / <span>00:00:21:811</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1312,15 +1363,16 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_SQLInjection_Attempt</h5>
-<span class='badge badge-success'>03.16.2025 3:06:00 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:06:09 AM</span>
-<span class='badge badge-default'>00:00:09:009</span>
+<h5 class="test-status text-pass">test_Logout_And_Relogin - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:58:01 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:58:23 AM</span>
+<span class='badge badge-default'>00:00:21:811</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1328,7 +1380,7 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:06:09 AM</td>
+        <td>3:58:23 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1340,12 +1392,12 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
         </li>
         <li class="test-item"  status="fail" test-id="26"
           author=""
-          tag=""
+          tag="EDGE"
           device="">
           <div class="test-detail">
-            <p class="name">checkBrokenLinks</p>
+            <p class="name">checkBrokenLinks - [EDGE]</p>
             <p class="text-sm">
-              <span>3:06:04 AM</span> / <span>00:00:47:579</span>
+              <span>3:58:16 AM</span> / <span>00:00:46:293</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -1353,58 +1405,60 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">checkBrokenLinks</h5>
-<span class='badge badge-success'>03.16.2025 3:06:04 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:06:52 AM</span>
-<span class='badge badge-default'>00:00:47:579</span>
+<h5 class="test-status text-fail">checkBrokenLinks - [EDGE]</h5>
+<span class='badge badge-success'>03.16.2025 3:58:16 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:59:02 AM</span>
+<span class='badge badge-default'>00:00:46:293</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">EDGE</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/checkBrokenLinks_1742077742562.png' src="C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/checkBrokenLinks_1742077742562.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:06:15 AM</td>
+        <td>3:58:25 AM</td>
         <td>
           Navigated to URL: https://magento.softwaretestingboard.com/
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:06:15 AM</td>
+        <td>3:58:25 AM</td>
         <td>
           Total links found: 79
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log warning-bg">Warning</span></td>
-        <td>3:06:21 AM</td>
-        <td>
-          ⚠ Empty or missing href attribute found.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log warning-bg">Warning</span></td>
-        <td>3:06:34 AM</td>
+        <td>3:58:45 AM</td>
         <td>
           ⚠ Empty or missing href attribute found.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:06:52 AM</td>
+        <td>3:59:02 AM</td>
         <td>
           ❌ Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:06:52 AM</td>
+        <td>3:59:02 AM</td>
         <td>
           Test Failed: java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/] expected [true] but found [false]
         </td>
@@ -1414,40 +1468,84 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="27"
+        <li class="test-item"  status="fail" test-id="27"
           author=""
-          tag=""
+          tag="CHROME"
           device="">
           <div class="test-detail">
-            <p class="name">test_Logout_And_Relogin</p>
+            <p class="name">checkBrokenLinks - [CHROME]</p>
             <p class="text-sm">
-              <span>3:06:10 AM</span> / <span>00:00:18:854</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>3:58:23 AM</span> / <span>00:00:43:598</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Logout_And_Relogin</h5>
-<span class='badge badge-success'>03.16.2025 3:06:10 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:06:29 AM</span>
-<span class='badge badge-default'>00:00:18:854</span>
+<h5 class="test-status text-fail">checkBrokenLinks - [CHROME]</h5>
+<span class='badge badge-success'>03.16.2025 3:58:23 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:59:07 AM</span>
+<span class='badge badge-default'>00:00:43:598</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">CHROME</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/checkBrokenLinks_1742077747160.png' src="C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/checkBrokenLinks_1742077747160.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:06:29 AM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:33 AM</td>
         <td>
-          Test Passed Successfully.
+          Navigated to URL: https://magento.softwaretestingboard.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:33 AM</td>
+        <td>
+          Total links found: 79
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>3:58:37 AM</td>
+        <td>
+          ⚠ Empty or missing href attribute found.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>3:58:52 AM</td>
+        <td>
+          ⚠ Empty or missing href attribute found.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:59:06 AM</td>
+        <td>
+          ❌ Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:59:07 AM</td>
+        <td>
+          Test Failed: java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/] expected [true] but found [false]
         </td>
       </tr>
   </tbody>
@@ -1457,12 +1555,12 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
         </li>
         <li class="test-item"  status="pass" test-id="28"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">test_Logout_And_Relogin</p>
+            <p class="name">test_SQLInjection_Attempt - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:06:13 AM</span> / <span>00:00:21:502</span>
+              <span>3:58:24 AM</span> / <span>00:00:15:654</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1470,15 +1568,16 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">test_Logout_And_Relogin</h5>
-<span class='badge badge-success'>03.16.2025 3:06:13 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:06:35 AM</span>
-<span class='badge badge-default'>00:00:21:502</span>
+<h5 class="test-status text-pass">test_SQLInjection_Attempt - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:58:24 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:58:39 AM</span>
+<span class='badge badge-default'>00:00:15:654</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1486,7 +1585,7 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>3:06:35 AM</td>
+        <td>3:58:39 AM</td>
         <td>
           Test Passed Successfully.
         </td>
@@ -1498,12 +1597,12 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
         </li>
         <li class="test-item"  status="fail" test-id="29"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">checkBrokenLinks</p>
+            <p class="name">test_Logout_And_Relogin - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:06:29 AM</span> / <span>00:00:39:417</span>
+              <span>3:58:41 AM</span> / <span>00:00:49:069</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -1511,60 +1610,34 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">checkBrokenLinks</h5>
-<span class='badge badge-success'>03.16.2025 3:06:29 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:07:08 AM</span>
-<span class='badge badge-default'>00:00:39:417</span>
+<h5 class="test-status text-fail">test_Logout_And_Relogin - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:58:41 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:59:31 AM</span>
+<span class='badge badge-default'>00:00:49:069</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/test_Logout_And_Relogin_1742077771047.png' src="C:\Users\Gaurav\eclipse-workspace\TestDemo/reports/screenshots/test_Logout_And_Relogin_1742077771047.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:06:36 AM</td>
-        <td>
-          Navigated to URL: https://magento.softwaretestingboard.com/
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>3:06:36 AM</td>
-        <td>
-          Total links found: 79
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log warning-bg">Warning</span></td>
-        <td>3:06:40 AM</td>
-        <td>
-          ⚠ Empty or missing href attribute found.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log warning-bg">Warning</span></td>
-        <td>3:06:55 AM</td>
-        <td>
-          ⚠ Empty or missing href attribute found.
-        </td>
-      </tr>
-      <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:07:08 AM</td>
+        <td>3:59:31 AM</td>
         <td>
-          ❌ Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:07:08 AM</td>
-        <td>
-          Test Failed: java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/] expected [true] but found [false]
+          Test Failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: email' (tried for 20 second(s) with 500 milliseconds interval)
         </td>
       </tr>
   </tbody>
@@ -1572,30 +1645,31 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="30"
+        <li class="test-item"  status="pass" test-id="30"
           author=""
-          tag=""
+          tag="FIREFOX"
           device="">
           <div class="test-detail">
-            <p class="name">checkBrokenLinks</p>
+            <p class="name">checkBrokenLinks - [FIREFOX]</p>
             <p class="text-sm">
-              <span>3:06:36 AM</span> / <span>00:00:36:132</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>3:59:32 AM</span> / <span>00:00:17:069</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">checkBrokenLinks</h5>
-<span class='badge badge-success'>03.16.2025 3:06:36 AM</span>
-<span class='badge badge-danger'>03.16.2025 3:07:12 AM</span>
-<span class='badge badge-default'>00:00:36:132</span>
+<h5 class="test-status text-pass">checkBrokenLinks - [FIREFOX]</h5>
+<span class='badge badge-success'>03.16.2025 3:59:32 AM</span>
+<span class='badge badge-danger'>03.16.2025 3:59:49 AM</span>
+<span class='badge badge-default'>00:00:17:069</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">FIREFOX</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1603,44 +1677,30 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:06:47 AM</td>
+        <td>3:59:39 AM</td>
         <td>
           Navigated to URL: https://magento.softwaretestingboard.com/
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:06:47 AM</td>
+        <td>3:59:49 AM</td>
         <td>
-          Total links found: 77
+          Total links found: 0
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log warning-bg">Warning</span></td>
-        <td>3:06:49 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:59:49 AM</td>
         <td>
-          ⚠ Empty or missing href attribute found.
+          ✅ No broken links found.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log warning-bg">Warning</span></td>
-        <td>3:07:00 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:59:49 AM</td>
         <td>
-          ⚠ Empty or missing href attribute found.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:07:12 AM</td>
-        <td>
-          ❌ Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/, https://magento.softwaretestingboard.com/checkout/cart/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/#store.menu, https://magento.softwaretestingboard.com/what-is-new.html, https://magento.softwaretestingboard.com/women.html, https://magento.softwaretestingboard.com/women/tops-women.html, https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html, https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html, https://magento.softwaretestingboard.com/women/tops-women/tees-women.html, https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html, https://magento.softwaretestingboard.com/women/bottoms-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:07:12 AM</td>
-        <td>
-          Test Failed: java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/, https://magento.softwaretestingboard.com/checkout/cart/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/#store.menu, https://magento.softwaretestingboard.com/what-is-new.html, https://magento.softwaretestingboard.com/women.html, https://magento.softwaretestingboard.com/women/tops-women.html, https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html, https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html, https://magento.softwaretestingboard.com/women/tops-women/tees-women.html, https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html, https://magento.softwaretestingboard.com/women/bottoms-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/] expected [true] but found [false]
+          Test Passed Successfully.
         </td>
       </tr>
   </tbody>
@@ -1657,18 +1717,328 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">FIREFOX</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>FIREFOX</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:55:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>is_Home_Page_Displayed - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>test_User_Registration - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>login_Test - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>test_Invalid_Credentials_Login - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>test_Blank_Fields_Login - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testInvalidEmailidField - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:57:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>test_Invalid_Email_Format - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:58:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>test_SQLInjection_Attempt - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:58:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>test_Logout_And_Relogin - [FIREFOX]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:59:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>checkBrokenLinks - [FIREFOX]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">CHROME</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>CHROME</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:55:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>is_Home_Page_Displayed - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:55:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>test_User_Registration - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>login_Test - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>test_Invalid_Credentials_Login - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>test_Blank_Fields_Login - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testInvalidEmailidField - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>test_Invalid_Email_Format - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>test_SQLInjection_Attempt - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:58:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>test_Logout_And_Relogin - [CHROME]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:58:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>checkBrokenLinks - [CHROME]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">EDGE</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>EDGE</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:55:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>is_Home_Page_Displayed - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:55:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>test_User_Registration - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:56:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>login_Test - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:56:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>test_Invalid_Credentials_Login - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>test_Blank_Fields_Login - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testInvalidEmailidField - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>test_Invalid_Email_Format - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>test_SQLInjection_Attempt - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>03:57:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>test_Logout_And_Relogin - [EDGE]</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:58:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>checkBrokenLinks - [EDGE]</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 16, 2025 03:03:29 AM</h3>
+<h3>Mar 16, 2025 03:55:41 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 16, 2025 03:07:14 AM</h3>
+<h3>Mar 16, 2025 03:59:50 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1719,10 +2089,10 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='43%'><b>34</b> events passed</small></div>
+<div><small data-tooltip='46%'><b>35</b> events passed</small></div>
 <div>
-<small data-tooltip='10%'><b>8</b> events failed,
-<b data-tooltip='%'>36</b> others
+<small data-tooltip='9%'><b>7</b> events failed,
+<b data-tooltip='%'>33</b> others
 </small>
 </div>
 </div>
@@ -1738,10 +2108,65 @@ Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
 </div></div>
 <script>
 var timeline = {
-"is_Home_Page_Displayed":10.387,"is_Home_Page_Displayed":15.025,"is_Home_Page_Displayed":15.258,"test_User_Registration":17.192,"test_User_Registration":18.313,"test_User_Registration":23.677,"login_Test":13.156,"login_Test":18.576,"test_Invalid_Credentials_Login":11.04,"login_Test":24.081,"test_Blank_Fields_Login":37.984,"test_Invalid_Credentials_Login":16.853,"test_Invalid_Credentials_Login":16.296,"test_Blank_Fields_Login":12.079,"testInvalidEmailidField":14.164,"test_Blank_Fields_Login":15.163,"testInvalidEmailidField":9.812,"test_Invalid_Email_Format":15.332,"test_Invalid_Email_Format":45.558,"testInvalidEmailidField":14.879,"test_SQLInjection_Attempt":11.438,"test_Invalid_Email_Format":14.858,"test_Logout_And_Relogin":22.395,"test_SQLInjection_Attempt":20.771,"test_SQLInjection_Attempt":9.009,"checkBrokenLinks":47.579,"test_Logout_And_Relogin":18.854,"test_Logout_And_Relogin":21.502,"checkBrokenLinks":39.417,"checkBrokenLinks":36.132
+"is_Home_Page_Displayed - [CHROME]":10.413,"is_Home_Page_Displayed - [EDGE]":9.92,"is_Home_Page_Displayed - [FIREFOX]":16.903,"test_User_Registration - [EDGE]":14.94,"test_User_Registration - [CHROME]":16.617,"test_User_Registration - [FIREFOX]":22.926,"login_Test - [EDGE]":16.519,"login_Test - [CHROME]":17.692,"login_Test - [FIREFOX]":22.554,"test_Invalid_Credentials_Login - [EDGE]":37.84,"test_Invalid_Credentials_Login - [CHROME]":14.387,"test_Blank_Fields_Login - [CHROME]":12.339,"test_Invalid_Credentials_Login - [FIREFOX]":19.889,"testInvalidEmailidField - [CHROME]":36.372,"test_Blank_Fields_Login - [EDGE]":11.403,"test_Blank_Fields_Login - [FIREFOX]":14.242,"testInvalidEmailidField - [EDGE]":10.225,"testInvalidEmailidField - [FIREFOX]":19.577,"test_Invalid_Email_Format - [EDGE]":10.536,"test_Invalid_Email_Format - [CHROME]":10.749,"test_SQLInjection_Attempt - [EDGE]":10.348,"test_SQLInjection_Attempt - [CHROME]":14.829,"test_Invalid_Email_Format - [FIREFOX]":30.459,"test_Logout_And_Relogin - [EDGE]":22.88,"test_Logout_And_Relogin - [CHROME]":21.811,"checkBrokenLinks - [EDGE]":46.293,"checkBrokenLinks - [CHROME]":43.598,"test_SQLInjection_Attempt - [FIREFOX]":15.654,"test_Logout_And_Relogin - [FIREFOX]":49.069,"checkBrokenLinks - [FIREFOX]":17.069
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>FIREFOX</td>
+<td>8</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>CHROME</td>
+<td>9</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>EDGE</td>
+<td>8</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>80%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>23.0.2</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Your Name</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 </div>
 </div>
 <script>
@@ -1764,9 +2189,9 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 34,
-failEvents: 8,
-warningEvents: 6,
+passEvents: 35,
+failEvents: 7,
+warningEvents: 3,
 skipEvents: 0,
 infoEvents: 30
 };

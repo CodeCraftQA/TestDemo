@@ -104,17 +104,16 @@ Jenkins & GitHub Actions (CI/CD Pipeline)
 
 Cross-Browser Testing
 
-Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge (Under Development).
+Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge.
 
 📌 Future Enhancements
 
-✅ Integrate Extent Reports for better test reporting (Now Inplemented)
+✅ Integrate Extent Reports for better test reporting (Completed)
 
 ✅ Complete Excel-Based Data-Driven Testing
 
 ✅ Enable Headless Browser Execution
 
-✅ Implement API Testing Framework (Postman + RestAssured) 
 
 📬 Contact & Contributions
 
