@@ -2,10 +2,11 @@
 <suite name="Test Suite">
     <test name="Test Execution">
         <classes>
-            <class name="testcases.TC001_Is_Home_Page_Visible"/>
-            <class name="testcases.TC002_SignUp_Account"/>
-            <class name ="testcases.TC003_LoginTest"/>
-            <class name ="testcases.TC004_Login_Invalid_Tests"/>
+            <class name="testcases.HomePageTest"/>
+            <class name="testcases.SignUpTest"/>
+            <class name ="testcases.LoginTest"/>
+            <class name ="testcases.Invalid_TestCases"/>
+            <class name="testcases.HomePageLinksTest"/>
         </classes>
     </test>
     <listeners>

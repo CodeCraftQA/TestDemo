@@ -5,6 +5,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +24,8 @@ public class BaseTest {
     public static WebDriver driver;
     public static ExtentReports extent;
     public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();  // ThreadLocal to handle parallel execution
+    protected static final Logger logger = LogManager.getLogger(BaseTest.class);
+
 
     @BeforeSuite
     public void setupReport() {
@@ -31,13 +35,14 @@ public class BaseTest {
         extent.attachReporter(sparkReporter);
 
         WebDriverManager.chromedriver().setup();
+        logger.info("Setting up WebDriver");
         driver = new ChromeDriver();
+        logger.info("Browser launched successfully");
         driver.get("https://magento.softwaretestingboard.com/");
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
 
     }
-
     @BeforeMethod
     public void startTestMethod(Method method) {
         ExtentTest extentTest = extent.createTest(method.getName());
@@ -59,12 +64,6 @@ public class BaseTest {
         }
     }
 
-    @AfterSuite
-    public void tearDown() {
-        driver.quit();
-        extent.flush();
-    }
-
     public String captureScreenshot(String testName) {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String screenshotPath = System.getProperty("user.dir") + "/reports/screenshots/" + testName + "_" + timestamp + ".png";
@@ -78,4 +77,11 @@ public class BaseTest {
         }
         return screenshotPath;
     }
+    @AfterSuite
+    public void tearDown() {
+        driver.quit();
+        extent.flush();
+        logger.info("Browser Closed");
+    }
+
 }

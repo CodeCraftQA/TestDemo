@@ -33,8 +33,6 @@ Cross-Browser Testing → Under Development
 
 CI/CD Pipeline Integration (Jenkins, GitHub Actions)
 
-Parallel Test Execution Support
-
 Automated Screenshot Capturing in Extent Reports
 
 📝 Test Cases Implemented
@@ -66,17 +64,17 @@ TestDemo/
 │   │   │   │   ├── ExtentReportManager.java
 │   │   │   │   ├── ScreenshotUtil.java
 │   │   │   │   ├── SeleniumDebugger.java
-│   │   │   │   ├── UserData.java
+│   │   │   │   ├── UserData.java # Placeholder for test data files
 │   │   ├── resources/           # Configs, test data
-│   │   │   ├── testdata/        # Placeholder for test data files
+│   │   │   
 │── test/
 │   ├── java/
-│   │   ├── testcases/           # Test cases
-│   │   │   ├── TC001_Is_Home_Page_Visible.java
-│   │   │   ├── TC002_SignUp_Account.java
-│   │   │   ├── TC003_LoginTest.java
-│   │   │   ├── TC004_Login_Invalid_Tests.java
-│   │   │   ├── TC005_Test_All_Pages_Links_Working.java
+│   │   │   testcases/           # Test cases
+│   │   │   ├── HomePage.java
+│   │   │   ├── SignUpTest.java
+│   │   │   ├── LoginTest.java
+│   │   │   ├── Invalid_TestCases.java
+│   │   │   ├── AllPagesLinksTest.java
 │   ├── resources/
 │   │   ├── TestData.xlsx        # Excel file for test data
 │── target/                      # Compiled output directory
@@ -94,6 +92,8 @@ Selenium WebDriver (UI Automation)
 
 TestNG (Test Execution and Reporting)
 
+Logger (Logs Management)
+
 Apache POI (Excel Data-Driven Testing)
 
 Maven (Dependency Management)
@@ -102,25 +102,23 @@ Git & GitHub (Version Control)
 
 Jenkins & GitHub Actions (CI/CD Pipeline)
 
-🔄 Parallel & Cross-Browser Testing
-
-Parallel Execution: Configured via testng.xml for faster test execution.
+Cross-Browser Testing
 
 Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge (Under Development).
 
 📌 Future Enhancements
 
-✅ Integrate Extent Reports for better test reporting
+✅ Integrate Extent Reports for better test reporting (Now Inplemented)
 
 ✅ Complete Excel-Based Data-Driven Testing
 
 ✅ Enable Headless Browser Execution
 
-✅ Implement API Testing Framework (Postman + RestAssured)
+✅ Implement API Testing Framework (Postman + RestAssured) 
 
 📬 Contact & Contributions
 
 Contributions and improvements are welcome! Feel free to fork the repo and submit a pull request.
 
-📧 Email: YourEmail@example.com📌 GitHub: CodeCraftQA
+📧 Email: GauravBhardwajb96@Gmail.com📌 GitHub: CodeCraftQA
 

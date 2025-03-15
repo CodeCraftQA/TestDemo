@@ -1,0 +1,908 @@
+2025-03-15 21:58:33 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 21:58:33 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 21:58:34 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 21:58:34 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 21:58:34 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 21:58:36 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:15:31 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:15:32 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:15:32 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:15:32 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:15:34 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:15:42 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:15:42 [main] INFO  TC001_Is_Home_Page_Visible - Verifying Title of the Page
+2025-03-15 22:15:43 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:17:20 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:17:21 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:17:21 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:17:21 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:17:23 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:18:00 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:18:00 [main] INFO  TC001_Is_Home_Page_Visible - Verifying Title of the Page
+2025-03-15 22:18:00 [main] INFO  TC001_Is_Home_Page_Visible - Successfully Verified HomePage
+2025-03-15 22:18:01 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:18:32 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:18:33 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:18:33 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:18:33 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:18:34 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:18:40 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:19:18 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:19:18 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:19:19 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:19:19 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:19:20 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:19:26 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:19:26 [main] INFO  TC001_Is_Home_Page_Visible - Verifying Title of the Page
+2025-03-15 22:19:27 [main] INFO  TC001_Is_Home_Page_Visible - Successfully Verified HomePage
+2025-03-15 22:19:27 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:29:53 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:29:54 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:29:54 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:29:54 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:29:55 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:30:01 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:30:03 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:30:38 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:30:40 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:30:40 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:30:40 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:30:41 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:30:47 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:30:48 [main] INFO  TC001_Is_Home_Page_Visible - Successfully Verified HomePage
+2025-03-15 22:30:48 [main] INFO  TC001_Is_Home_Page_Visible - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 22:30:49 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:31:53 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-15 22:31:54 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:31:54 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:31:54 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:31:56 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:32:02 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:32:02 [main] INFO  TC001_Is_Home_Page_Visible - Successfully Verified HomePage
+2025-03-15 22:32:02 [main] INFO  TC001_Is_Home_Page_Visible - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 22:32:03 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:32:44 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 22:32:44 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 22:32:45 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:32:45 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:32:45 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:32:47 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:32:53 [main] INFO  TC001_Is_Home_Page_Visible - Home Page is loaded Successfully
+2025-03-15 22:32:53 [main] INFO  TC001_Is_Home_Page_Visible - Successfully Verified HomePage
+2025-03-15 22:32:53 [main] INFO  TC001_Is_Home_Page_Visible - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 22:33:28 [main] INFO  BaseTest - Browser Closed
+2025-03-15 22:59:08 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 22:59:08 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 22:59:09 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 22:59:09 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 22:59:09 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 22:59:11 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 22:59:17 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 22:59:17 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 22:59:18 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 22:59:18 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 22:59:19 [main] INFO  SignUpTest - Registering user with email: User1742059759597@test.com
+2025-03-15 22:59:23 [main] INFO  SignUpTest - User ID Generated: User1742059759597@test.com
+2025-03-15 22:59:23 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 22:59:23 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 22:59:23 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 22:59:25 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 22:59:25 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 22:59:25 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 22:59:26 [main] INFO  LoginTest - Logging in with email: User1742059759597@test.com
+2025-03-15 22:59:29 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 22:59:29 [main] INFO  LoginTest - Login successful.
+2025-03-15 22:59:30 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 22:59:30 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 22:59:30 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 22:59:32 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 22:59:34 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 22:59:34 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 22:59:34 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 22:59:34 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 22:59:35 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 22:59:35 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 22:59:35 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 22:59:35 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 22:59:35 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 22:59:37 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 22:59:37 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 22:59:37 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 22:59:37 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 22:59:37 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 22:59:39 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 22:59:39 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 22:59:39 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 22:59:39 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 22:59:39 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 22:59:40 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 22:59:41 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 22:59:41 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 22:59:41 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 22:59:41 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 22:59:42 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 22:59:45 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 22:59:46 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 22:59:47 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 22:59:50 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 22:59:50 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 22:59:50 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 22:59:51 [main] INFO  BaseTest - Browser Closed
+2025-03-15 23:02:03 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:02:47 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:02:47 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 23:02:48 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 23:02:48 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 23:02:48 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 23:02:49 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 23:02:55 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 23:02:55 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 23:02:56 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 23:02:56 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 23:02:57 [main] INFO  SignUpTest - Registering user with email: User1742059977496@test.com
+2025-03-15 23:03:01 [main] INFO  SignUpTest - User ID Generated: User1742059977496@test.com
+2025-03-15 23:03:01 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 23:03:01 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 23:03:01 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 23:03:03 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 23:03:03 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 23:03:03 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 23:03:04 [main] INFO  LoginTest - Logging in with email: User1742059977496@test.com
+2025-03-15 23:03:06 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 23:03:06 [main] INFO  LoginTest - Login successful.
+2025-03-15 23:03:08 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 23:03:08 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 23:03:08 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 23:03:10 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:03:11 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 23:03:12 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 23:03:12 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 23:03:12 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 23:03:13 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:03:13 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 23:03:13 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 23:03:13 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 23:03:13 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 23:03:15 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:03:15 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 23:03:15 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:03:15 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 23:03:15 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 23:03:17 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:03:17 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 23:03:17 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:03:17 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 23:03:17 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 23:03:18 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:03:19 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 23:03:19 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 23:03:19 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 23:03:19 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 23:03:20 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:03:22 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 23:03:24 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 23:03:25 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 23:03:28 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 23:03:28 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 23:03:28 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 23:03:29 [main] INFO  AllPagesLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-15 23:03:29 [main] INFO  AllPagesLinksTest - Total links found: 77
+2025-03-15 23:03:31 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-15 23:03:31 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:03:32 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:03:32 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-15 23:03:33 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-15 23:03:34 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-15 23:03:34 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalog/product_compare/index/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9zZWN0aW9uL2xvYWQvP3NlY3Rpb25zPW1lc3NhZ2VzJTJDY3VzdG9tZXIlMkNjb21wYXJlLXByb2R1Y3RzJTJDbGFzdC1vcmRlcmVkLWl0ZW1zJTJDY2FydCUyQ2RpcmVjdG9yeS1kYXRhJTJDY2FwdGNoYSUyQ2luc3RhbnQtcHVyY2hhc2UlMkNwZXJzaXN0ZW50JTJDcmV2aWV3JTJDd2lzaGxpc3QlMkNyZWNlbnRseV92aWV3ZWRfcHJvZHVjdCUyQ3JlY2VudGx5X2NvbXBhcmVkX3Byb2R1Y3QlMkNwcm9kdWN0X2RhdGFfc3RvcmFnZSUyQ3BheXBhbC1iaWxsaW5nLWFncmVlbWVudCZmb3JjZV9uZXdfc2VjdGlvbl90aW1lc3RhbXA9ZmFsc2UmXz0xNzQyMDYwMDA3ODgw/ | Status Code: 200
+2025-03-15 23:03:35 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-15 23:03:36 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-15 23:03:36 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-15 23:03:37 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-15 23:03:37 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-15 23:03:37 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-15 23:03:38 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-15 23:03:39 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-15 23:03:40 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-15 23:03:40 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-15 23:03:41 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-15 23:03:41 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-15 23:03:42 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-15 23:03:42 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-15 23:03:42 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-15 23:03:43 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-15 23:03:43 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-15 23:03:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-15 23:03:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-15 23:03:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-15 23:03:45 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-15 23:03:45 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-15 23:03:46 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-15 23:03:46 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-15 23:03:46 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-15 23:03:47 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-15 23:03:47 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-15 23:03:48 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-15 23:03:48 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:03:49 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:03:49 [main] WARN  AllPagesLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-15 23:03:49 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-15 23:03:50 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:03:50 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:03:51 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-15 23:03:51 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:51 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:52 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:03:52 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:03:53 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-15 23:03:53 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:54 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:54 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:03:54 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:03:55 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:55 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:56 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:03:56 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:03:56 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:57 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:57 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:03:58 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:03:58 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-15 23:03:58 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:59 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:03:59 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:04:00 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:04:00 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-15 23:04:01 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:04:01 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:04:02 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-15 23:04:02 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-15 23:04:03 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-15 23:04:03 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-15 23:04:04 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-15 23:04:04 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-15 23:04:04 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-15 23:04:05 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-15 23:04:05 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-15 23:04:05 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-15 23:04:05 [main] ERROR AllPagesLinksTest - Broken links found: [https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-15 23:04:07 [main] INFO  BaseTest - Browser Closed
+2025-03-15 23:08:28 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:08:28 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 23:08:29 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 23:08:29 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 23:08:29 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 23:08:31 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 23:08:37 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 23:08:37 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 23:08:37 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 23:08:37 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 23:08:38 [main] INFO  SignUpTest - Registering user with email: User1742060318960@test.com
+2025-03-15 23:08:42 [main] INFO  SignUpTest - User ID Generated: User1742060318960@test.com
+2025-03-15 23:08:42 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 23:08:42 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 23:08:42 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 23:08:44 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 23:08:44 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 23:08:44 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 23:08:46 [main] INFO  LoginTest - Logging in with email: User1742060318960@test.com
+2025-03-15 23:08:48 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 23:08:48 [main] INFO  LoginTest - Login successful.
+2025-03-15 23:08:50 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 23:08:50 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 23:08:50 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 23:08:52 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:08:54 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 23:08:54 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 23:08:54 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 23:08:54 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 23:08:55 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:08:55 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 23:08:55 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 23:08:56 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 23:08:56 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 23:08:57 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:08:58 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 23:08:58 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:08:58 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 23:08:58 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 23:08:59 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:08:59 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 23:08:59 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:09:00 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 23:09:00 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 23:09:01 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:09:01 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 23:09:01 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 23:09:01 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 23:09:01 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 23:09:03 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:09:05 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 23:09:07 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 23:09:08 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 23:09:10 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 23:09:11 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 23:09:11 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 23:09:12 [main] INFO  AllPagesLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-15 23:09:12 [main] INFO  AllPagesLinksTest - Total links found: 77
+2025-03-15 23:09:13 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-15 23:09:14 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:09:15 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:09:16 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-15 23:09:16 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-15 23:09:17 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-15 23:09:18 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalog/product_compare/index/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9zZWN0aW9uL2xvYWQvP3NlY3Rpb25zPW1lc3NhZ2VzJTJDY3VzdG9tZXIlMkNjb21wYXJlLXByb2R1Y3RzJTJDbGFzdC1vcmRlcmVkLWl0ZW1zJTJDY2FydCUyQ2RpcmVjdG9yeS1kYXRhJTJDY2FwdGNoYSUyQ2luc3RhbnQtcHVyY2hhc2UlMkNwZXJzaXN0ZW50JTJDcmV2aWV3JTJDd2lzaGxpc3QlMkNyZWNlbnRseV92aWV3ZWRfcHJvZHVjdCUyQ3JlY2VudGx5X2NvbXBhcmVkX3Byb2R1Y3QlMkNwcm9kdWN0X2RhdGFfc3RvcmFnZSUyQ3BheXBhbC1iaWxsaW5nLWFncmVlbWVudCZmb3JjZV9uZXdfc2VjdGlvbl90aW1lc3RhbXA9ZmFsc2UmXz0xNzQyMDYwMzUwNjg4/ | Status Code: 200
+2025-03-15 23:09:19 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-15 23:09:19 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-15 23:09:20 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-15 23:09:20 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-15 23:09:21 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-15 23:09:22 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-15 23:09:23 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-15 23:09:23 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-15 23:09:24 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-15 23:09:24 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-15 23:09:24 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-15 23:09:25 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-15 23:09:25 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-15 23:09:26 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-15 23:09:26 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-15 23:09:26 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-15 23:09:27 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-15 23:09:27 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-15 23:09:28 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-15 23:09:28 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-15 23:09:29 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-15 23:09:29 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-15 23:09:29 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-15 23:09:30 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-15 23:09:30 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-15 23:09:31 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-15 23:09:31 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-15 23:09:32 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-15 23:09:32 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:09:33 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:09:33 [main] WARN  AllPagesLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-15 23:09:33 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-15 23:09:34 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:09:34 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:09:34 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-15 23:09:35 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:35 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:36 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:09:36 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:09:36 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-15 23:09:37 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:37 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:38 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:09:38 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:09:39 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:39 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:39 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:09:40 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:09:40 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:41 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:41 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:09:41 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:09:42 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-15 23:09:42 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:43 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:43 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:09:43 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:09:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-15 23:09:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:45 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:09:46 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-15 23:09:46 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-15 23:09:46 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-15 23:09:46 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-15 23:09:47 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-15 23:09:47 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-15 23:09:48 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-15 23:09:48 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-15 23:09:48 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-15 23:09:49 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-15 23:09:49 [main] ERROR AllPagesLinksTest - Broken links found: [https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-15 23:09:50 [main] INFO  BaseTest - Browser Closed
+2025-03-15 23:12:39 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:12:40 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 23:12:40 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 23:12:41 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 23:12:41 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 23:12:42 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 23:12:48 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 23:12:48 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 23:12:49 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 23:12:49 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 23:12:50 [main] INFO  SignUpTest - Registering user with email: User1742060570926@test.com
+2025-03-15 23:12:55 [main] INFO  SignUpTest - User ID Generated: User1742060570926@test.com
+2025-03-15 23:12:55 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 23:12:55 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 23:12:55 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 23:12:57 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 23:12:57 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 23:12:57 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 23:12:59 [main] INFO  LoginTest - Logging in with email: User1742060570926@test.com
+2025-03-15 23:13:01 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 23:13:01 [main] INFO  LoginTest - Login successful.
+2025-03-15 23:13:03 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 23:13:03 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 23:13:03 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 23:13:04 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:13:06 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 23:13:06 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 23:13:06 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 23:13:06 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 23:13:08 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:13:08 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 23:13:08 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 23:13:08 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 23:13:08 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 23:13:10 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:13:10 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 23:13:10 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:13:10 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 23:13:10 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 23:13:11 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:13:12 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 23:13:12 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:13:12 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 23:13:12 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 23:13:13 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:13:13 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 23:13:13 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 23:13:14 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 23:13:14 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 23:13:15 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:13:17 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 23:13:19 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 23:13:20 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 23:13:23 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 23:13:23 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 23:13:23 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 23:13:24 [main] INFO  AllPagesLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-15 23:13:24 [main] INFO  AllPagesLinksTest - Total links found: 79
+2025-03-15 23:13:26 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-15 23:13:27 [main] INFO  BaseTest - Browser Closed
+2025-03-15 23:14:53 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:14:54 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 23:14:55 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 23:14:55 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 23:14:55 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 23:14:56 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 23:15:02 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 23:15:02 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 23:15:02 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 23:15:02 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 23:15:04 [main] INFO  SignUpTest - Registering user with email: User1742060704412@test.com
+2025-03-15 23:15:08 [main] INFO  SignUpTest - User ID Generated: User1742060704412@test.com
+2025-03-15 23:15:08 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 23:15:08 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 23:15:08 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 23:15:10 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 23:15:10 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 23:15:10 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 23:15:11 [main] INFO  LoginTest - Logging in with email: User1742060704412@test.com
+2025-03-15 23:15:13 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 23:15:13 [main] INFO  LoginTest - Login successful.
+2025-03-15 23:15:15 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 23:15:15 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 23:15:15 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 23:15:17 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:15:19 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 23:15:19 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 23:15:19 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 23:15:19 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 23:15:20 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:15:20 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 23:15:20 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 23:15:21 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 23:15:21 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 23:15:22 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:15:22 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 23:15:22 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:15:22 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 23:15:22 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 23:15:24 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:15:24 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 23:15:24 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:15:24 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 23:15:24 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 23:15:26 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:15:26 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 23:15:26 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 23:15:26 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 23:15:26 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 23:15:28 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:15:30 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 23:15:32 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 23:15:33 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 23:15:36 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 23:15:36 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 23:15:36 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 23:15:37 [main] INFO  AllPagesLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-15 23:15:37 [main] INFO  AllPagesLinksTest - Total links found: 77
+2025-03-15 23:15:38 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-15 23:15:39 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:15:40 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:15:40 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-15 23:15:41 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-15 23:15:42 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-15 23:15:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalog/product_compare/index/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9zZWN0aW9uL2xvYWQvP3NlY3Rpb25zPW1lc3NhZ2VzJTJDY3VzdG9tZXIlMkNjb21wYXJlLXByb2R1Y3RzJTJDbGFzdC1vcmRlcmVkLWl0ZW1zJTJDY2FydCUyQ2RpcmVjdG9yeS1kYXRhJTJDY2FwdGNoYSUyQ2luc3RhbnQtcHVyY2hhc2UlMkNwZXJzaXN0ZW50JTJDcmV2aWV3JTJDd2lzaGxpc3QlMkNyZWNlbnRseV92aWV3ZWRfcHJvZHVjdCUyQ3JlY2VudGx5X2NvbXBhcmVkX3Byb2R1Y3QlMkNwcm9kdWN0X2RhdGFfc3RvcmFnZSUyQ3BheXBhbC1iaWxsaW5nLWFncmVlbWVudCZmb3JjZV9uZXdfc2VjdGlvbl90aW1lc3RhbXA9ZmFsc2UmXz0xNzQyMDYwNzM1NzY2/ | Status Code: 200
+2025-03-15 23:15:44 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-15 23:15:45 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-15 23:15:45 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-15 23:15:46 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-15 23:15:46 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-15 23:15:47 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-15 23:15:47 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-15 23:15:47 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-15 23:15:48 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-15 23:15:48 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-15 23:15:49 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-15 23:15:49 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-15 23:15:50 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-15 23:15:50 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-15 23:15:51 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-15 23:15:51 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-15 23:15:51 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-15 23:15:52 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-15 23:15:52 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-15 23:15:53 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-15 23:15:53 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-15 23:15:54 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-15 23:15:54 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-15 23:15:54 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-15 23:15:55 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-15 23:15:55 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-15 23:15:55 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-15 23:15:56 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-15 23:15:57 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:15:57 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:15:57 [main] WARN  AllPagesLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-15 23:15:58 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-15 23:15:58 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:15:58 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:15:59 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-15 23:15:59 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:00 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:00 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:16:01 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:16:01 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-15 23:16:01 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:02 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:02 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:16:03 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:16:03 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:03 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:04 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:16:04 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:16:05 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:05 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:06 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:16:06 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:16:06 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-15 23:16:07 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:07 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:08 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:16:08 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:16:08 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-15 23:16:09 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:09 [main] INFO  AllPagesLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:16:10 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-15 23:16:10 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-15 23:16:11 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-15 23:16:11 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-15 23:16:11 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-15 23:16:12 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-15 23:16:12 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-15 23:16:12 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-15 23:16:13 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-15 23:16:13 [main] ERROR AllPagesLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-15 23:16:13 [main] ERROR AllPagesLinksTest - Broken links found: [https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-15 23:16:14 [main] INFO  BaseTest - Browser Closed
+2025-03-15 23:20:14 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:20:15 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 23:20:16 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 23:20:16 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 23:20:16 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 23:20:17 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 23:20:23 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 23:20:23 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 23:20:23 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 23:20:23 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 23:20:25 [main] INFO  SignUpTest - Registering user with email: User1742061025174@test.com
+2025-03-15 23:20:29 [main] INFO  SignUpTest - User ID Generated: User1742061025174@test.com
+2025-03-15 23:20:29 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 23:20:29 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 23:20:29 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 23:20:31 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 23:20:31 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 23:20:31 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 23:20:32 [main] INFO  LoginTest - Logging in with email: User1742061025174@test.com
+2025-03-15 23:20:35 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 23:20:35 [main] INFO  LoginTest - Login successful.
+2025-03-15 23:20:37 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 23:20:37 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 23:20:37 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 23:20:38 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:20:40 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 23:20:40 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 23:20:40 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 23:20:40 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 23:20:41 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:20:42 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 23:20:42 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 23:20:42 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 23:20:42 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 23:20:43 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:20:43 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 23:20:44 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:20:44 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 23:20:44 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 23:20:45 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:20:45 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 23:20:45 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:20:45 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 23:20:45 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 23:20:47 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:20:47 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 23:20:47 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 23:20:47 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 23:20:47 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 23:20:48 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:20:51 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 23:20:52 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 23:20:54 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 23:20:56 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 23:20:56 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 23:20:56 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 23:21:34 [main] INFO  HomePageLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-15 23:21:34 [main] INFO  HomePageLinksTest - Total links found: 77
+2025-03-15 23:21:35 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-15 23:21:36 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:21:36 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:21:37 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-15 23:21:37 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-15 23:21:38 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-15 23:21:39 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalog/product_compare/index/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9zZWN0aW9uL2xvYWQvP3NlY3Rpb25zPW1lc3NhZ2VzJTJDY3VzdG9tZXIlMkNjb21wYXJlLXByb2R1Y3RzJTJDbGFzdC1vcmRlcmVkLWl0ZW1zJTJDY2FydCUyQ2RpcmVjdG9yeS1kYXRhJTJDY2FwdGNoYSUyQ2luc3RhbnQtcHVyY2hhc2UlMkNwZXJzaXN0ZW50JTJDcmV2aWV3JTJDd2lzaGxpc3QlMkNyZWNlbnRseV92aWV3ZWRfcHJvZHVjdCUyQ3JlY2VudGx5X2NvbXBhcmVkX3Byb2R1Y3QlMkNwcm9kdWN0X2RhdGFfc3RvcmFnZSUyQ3BheXBhbC1iaWxsaW5nLWFncmVlbWVudCZmb3JjZV9uZXdfc2VjdGlvbl90aW1lc3RhbXA9ZmFsc2UmXz0xNzQyMDYxMDU2MjMy/ | Status Code: 200
+2025-03-15 23:21:39 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-15 23:21:40 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-15 23:21:40 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-15 23:21:40 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-15 23:21:41 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-15 23:21:41 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-15 23:21:42 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-15 23:21:42 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-15 23:21:43 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-15 23:21:43 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-15 23:21:43 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-15 23:21:44 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-15 23:21:44 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-15 23:21:45 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-15 23:21:45 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-15 23:21:45 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-15 23:21:46 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-15 23:21:46 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-15 23:21:47 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-15 23:21:47 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-15 23:21:48 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-15 23:21:48 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-15 23:21:48 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-15 23:21:49 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-15 23:21:49 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-15 23:21:50 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-15 23:21:50 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-15 23:21:50 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-15 23:21:51 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:21:52 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:21:52 [main] WARN  HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-15 23:21:52 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-15 23:21:53 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:21:53 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:21:53 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-15 23:21:54 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:21:54 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:21:55 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:21:55 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:21:55 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-15 23:21:56 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:21:56 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:21:57 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:21:57 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:21:58 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:21:58 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:21:58 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:21:59 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:21:59 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:22:00 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:22:00 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:22:00 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:22:01 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-15 23:22:01 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:22:02 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:22:02 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:22:02 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:22:03 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-15 23:22:03 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:22:04 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:22:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-15 23:22:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-15 23:22:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-15 23:22:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-15 23:22:06 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-15 23:22:06 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-15 23:22:06 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-15 23:22:07 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-15 23:22:07 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-15 23:22:07 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-15 23:22:07 [main] ERROR HomePageLinksTest - Broken links found: [https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-15 23:22:09 [main] INFO  BaseTest - Browser Closed
+2025-03-15 23:31:43 [main] WARN  TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml] otherwise TestNG may fail or not work as expected.
+2025-03-15 23:31:44 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-15 23:31:45 [main] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-15 23:31:45 [main] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-15 23:31:45 [main] INFO  BaseTest - Setting up WebDriver
+2025-03-15 23:31:47 [main] INFO  BaseTest - Browser launched successfully
+2025-03-15 23:31:53 [main] INFO  HomePageTest - Home Page is loaded Successfully
+2025-03-15 23:31:53 [main] INFO  HomePageTest - Successfully Verified HomePage
+2025-03-15 23:31:53 [main] INFO  HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-15 23:31:53 [main] INFO  SignUpTest - Navigating to the signup page.
+2025-03-15 23:31:54 [main] INFO  SignUpTest - Registering user with email: User1742061714871@test.com
+2025-03-15 23:31:58 [main] INFO  SignUpTest - User ID Generated: User1742061714871@test.com
+2025-03-15 23:31:58 [main] INFO  SignUpTest - Password Generated: Aeiou@6401
+2025-03-15 23:31:58 [main] INFO  SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-15 23:31:58 [main] INFO  SignUpTest - User registration successful.
+2025-03-15 23:32:00 [main] INFO  SignUpTest - User signed out successfully.
+2025-03-15 23:32:00 [main] INFO  SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-15 23:32:00 [main] INFO  LoginTest - Navigating to the login page.
+2025-03-15 23:32:02 [main] INFO  LoginTest - Logging in with email: User1742061714871@test.com
+2025-03-15 23:32:04 [main] INFO  LoginTest - Verifying welcome message: Expected - 'My Account', Actual - 'My Account'.
+2025-03-15 23:32:04 [main] INFO  LoginTest - Login successful.
+2025-03-15 23:32:06 [main] INFO  LoginTest - User signed out successfully.
+2025-03-15 23:32:06 [main] INFO  LoginTest - Screenshot captured: 'login_Test'.
+2025-03-15 23:32:06 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-15 23:32:08 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:32:10 [main] INFO  Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-15 23:32:10 [main] INFO  Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-15 23:32:10 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-15 23:32:10 [main] INFO  Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-15 23:32:11 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:32:11 [main] INFO  Invalid_TestCases - Attempted login with blank credentials.
+2025-03-15 23:32:11 [main] INFO  Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-15 23:32:12 [main] INFO  Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-15 23:32:12 [main] INFO  Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-15 23:32:13 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:32:14 [main] INFO  Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-15 23:32:14 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:32:14 [main] INFO  Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-15 23:32:14 [main] INFO  Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-15 23:32:15 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:32:15 [main] INFO  Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-15 23:32:15 [main] INFO  Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-15 23:32:16 [main] INFO  Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-15 23:32:16 [main] INFO  Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-15 23:32:17 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:32:17 [main] INFO  Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-15 23:32:17 [main] INFO  Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-15 23:32:18 [main] INFO  Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-15 23:32:18 [main] INFO  Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-15 23:32:19 [main] INFO  Invalid_TestCases - Navigated to Login Page.
+2025-03-15 23:32:21 [main] INFO  Invalid_TestCases - Logged in with valid credentials.
+2025-03-15 23:32:23 [main] INFO  Invalid_TestCases - User logged out successfully.
+2025-03-15 23:32:24 [main] INFO  Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-15 23:32:27 [main] INFO  Invalid_TestCases - Attempted re-login.
+2025-03-15 23:32:27 [main] INFO  Invalid_TestCases - User successfully logged in again.
+2025-03-15 23:32:27 [main] INFO  Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-15 23:32:28 [main] INFO  HomePageLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-15 23:32:28 [main] INFO  HomePageLinksTest - Total links found: 77
+2025-03-15 23:32:30 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-15 23:32:30 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:32:31 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:32:31 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-15 23:32:32 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-15 23:32:32 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-15 23:32:33 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalog/product_compare/index/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9zZWN0aW9uL2xvYWQvP3NlY3Rpb25zPW1lc3NhZ2VzJTJDY3VzdG9tZXIlMkNjb21wYXJlLXByb2R1Y3RzJTJDbGFzdC1vcmRlcmVkLWl0ZW1zJTJDY2FydCUyQ2RpcmVjdG9yeS1kYXRhJTJDY2FwdGNoYSUyQ2luc3RhbnQtcHVyY2hhc2UlMkNwZXJzaXN0ZW50JTJDcmV2aWV3JTJDd2lzaGxpc3QlMkNyZWNlbnRseV92aWV3ZWRfcHJvZHVjdCUyQ3JlY2VudGx5X2NvbXBhcmVkX3Byb2R1Y3QlMkNwcm9kdWN0X2RhdGFfc3RvcmFnZSUyQ3BheXBhbC1iaWxsaW5nLWFncmVlbWVudCZmb3JjZV9uZXdfc2VjdGlvbl90aW1lc3RhbXA9ZmFsc2UmXz0xNzQyMDYxNzQ2ODI0/ | Status Code: 200
+2025-03-15 23:32:34 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-15 23:32:35 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-15 23:32:35 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-15 23:32:36 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-15 23:32:36 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-15 23:32:37 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-15 23:32:37 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-15 23:32:38 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-15 23:32:39 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-15 23:32:39 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-15 23:32:40 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-15 23:32:40 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-15 23:32:41 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-15 23:32:41 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-15 23:32:41 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-15 23:32:42 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-15 23:32:42 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-15 23:32:43 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-15 23:32:43 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-15 23:32:44 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-15 23:32:44 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-15 23:32:45 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-15 23:32:45 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-15 23:32:45 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-15 23:32:46 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-15 23:32:46 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-15 23:32:47 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-15 23:32:47 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-15 23:32:48 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-15 23:32:49 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-15 23:32:49 [main] WARN  HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-15 23:32:49 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-15 23:32:49 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:32:50 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-15 23:32:50 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-15 23:32:51 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:51 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:52 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:32:52 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-15 23:32:52 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-15 23:32:53 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:53 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:54 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:32:54 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-15 23:32:55 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:55 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:56 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:32:56 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-15 23:32:56 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:57 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:57 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:32:58 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-15 23:32:58 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-15 23:32:59 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:32:59 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:33:00 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:33:00 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-15 23:33:00 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-15 23:33:01 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:33:01 [main] INFO  HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-15 23:33:02 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-15 23:33:02 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-15 23:33:03 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-15 23:33:03 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-15 23:33:03 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-15 23:33:04 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-15 23:33:04 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-15 23:33:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-15 23:33:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-15 23:33:05 [main] ERROR HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-15 23:33:05 [main] ERROR HomePageLinksTest - Broken links found: [https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-15 23:33:07 [main] INFO  BaseTest - Browser Closed
