@@ -62,6 +62,7 @@ public class BaseTest {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.addArguments("--private");
                 firefoxOptions.addArguments("--ignore-certificate-errors");
+                firefoxOptions.addArguments("--headless=new");
                 driver = new FirefoxDriver(firefoxOptions);
                 logger.info("Firefox initialized successfully.");
                 break;
@@ -82,6 +83,7 @@ public class BaseTest {
                     edgeOptions.addArguments("--disable-gpu", "--ignore-certificate-errors");
                     edgeOptions.addArguments("--remote-debugging-port=9222");
                     edgeOptions.addArguments("--user-data-dir=" + edgeUserDataDir);
+                    edgeOptions.addArguments("--headless=new");
 
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver(edgeOptions);
@@ -100,6 +102,7 @@ public class BaseTest {
                 chromeOptions.addArguments("--disable-popup-blocking");
                 chromeOptions.addArguments("--disable-gpu");
                 chromeOptions.addArguments("--ignore-certificate-errors");
+                //chromeOptions.addArguments("--headless=new");
                 driver = new ChromeDriver(chromeOptions);
                 logger.info("Chrome initialized successfully.");
                 break;

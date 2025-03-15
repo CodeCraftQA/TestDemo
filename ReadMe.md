@@ -29,7 +29,7 @@ Negative Test Scenarios (Invalid Login, SQL Injection, Blank Fields, Invalid Ema
 
 Data-Driven Testing (Excel Integration for Test Data) → Under Development
 
-Cross-Browser Testing → Under Development
+Cross-Browser Testing 
 
 CI/CD Pipeline Integration (Jenkins, GitHub Actions)
 
@@ -112,8 +112,7 @@ Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge.
 
 ✅ Complete Excel-Based Data-Driven Testing
 
-✅ Enable Headless Browser Execution
-
+✅ Enable Headless Browser Execution (Completed)
 
 📬 Contact & Contributions
 
