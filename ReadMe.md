@@ -120,5 +120,8 @@ Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge (Under De
 
 Contributions and improvements are welcome! Feel free to fork the repo and submit a pull request.
 
-📧 Email: GauravBhardwajb96@Gmail.com📌 GitHub: CodeCraftQA
+📧 Email: GauravBhardwajb96@Gmail.com 
+
+GitHub: CodeCraftQA
+
 
