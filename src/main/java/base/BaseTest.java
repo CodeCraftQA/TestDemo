@@ -8,10 +8,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -33,6 +34,7 @@ public class BaseTest {
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
+        logger.info("Extent Report setup completed.");
     }
 
     @Parameters("browser")
@@ -48,6 +50,7 @@ public class BaseTest {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.addArguments("--private");
                 firefoxOptions.addArguments("--ignore-certificate-errors");
+
                 driver = new FirefoxDriver(firefoxOptions);
                 logger.info("Firefox initialized successfully.");
                 break;
@@ -56,10 +59,13 @@ public class BaseTest {
                 try {
                     Path tempDir = Files.createTempDirectory("edgeUserDataDir");
                     EdgeOptions edgeOptions = new EdgeOptions();
-                    edgeOptions.addArguments("--start-maximized");
+                    edgeOptions.addArguments("--window-size=1920,1080");
+                    edgeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage");
+                    edgeOptions.addArguments("--disable-popup-blocking", "--disable-gpu");
                     edgeOptions.addArguments("--ignore-certificate-errors");
                     edgeOptions.addArguments("--remote-debugging-port=9222");
                     edgeOptions.addArguments("--user-data-dir=" + tempDir.toString());
+
 
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver(edgeOptions);
@@ -73,14 +79,21 @@ public class BaseTest {
             case "chrome":
             default:
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--disable-popup-blocking");
+                chromeOptions.addArguments("--disable-gpu");
+                chromeOptions.addArguments("--ignore-certificate-errors");
+                chromeOptions.addArguments("--window-size=1920,1080");
+
+                driver = new ChromeDriver(chromeOptions);
+                logger.info("Chrome initialized successfully.");
                 break;
         }
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://magento.softwaretestingboard.com/");
-        logger.info("Navigated to Magento website");
+        logger.info("Navigated to Magento website.");
     }
 
     @AfterMethod
@@ -89,21 +102,24 @@ public class BaseTest {
 
         if (result.getStatus() == ITestResult.FAILURE) {
             extentTest.fail("Test Failed: " + result.getThrowable());
+            logger.error("Test Failed: {}", result.getThrowable());
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             extentTest.pass("Test Passed Successfully.");
+            logger.info("Test Passed Successfully.");
         } else {
             extentTest.skip("Test Skipped.");
+            logger.warn("Test Skipped.");
         }
 
         if (driver != null) {
             driver.quit();
-            logger.info("Browser Closed");
+            logger.info("Browser closed.");
         }
     }
 
     @AfterSuite
     public void tearDownReport() {
         extent.flush();
-        logger.info("Extent Report Generated.");
+        logger.info("Extent Report generated.");
     }
 }

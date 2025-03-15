@@ -4912,3 +4912,1119 @@
 2025-03-16 02:47:12 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
 2025-03-16 02:47:12 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
 2025-03-16 02:47:15 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:48:56 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-16 02:48:56 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:48:56 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:48:57 [TestNG-tests-1] INFO  Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win64/chromedriver-win64.zip
+2025-03-16 02:48:58 [TestNG-tests-1] INFO  Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-03-16 02:48:58 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:49:04 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:49:06 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 02:49:06 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 02:49:06 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 02:49:07 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:49:07 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:49:08 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:49:08 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:49:13 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:49:13 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Navigating to the signup page.
+2025-03-16 02:49:14 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Registering user with email: User1742073554892@test.com
+2025-03-16 02:49:18 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User ID Generated: User1742073554892@test.com
+2025-03-16 02:49:18 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Password Generated: Aeiou@6401
+2025-03-16 02:49:18 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-16 02:49:18 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User registration successful.
+2025-03-16 02:49:20 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User signed out successfully.
+2025-03-16 02:49:20 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-16 02:49:21 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:49:21 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:49:21 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:49:21 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:49:25 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:49:25 [TestNG-tests-1] INFO  Scenario3_LoginTest - Navigating to the login page.
+2025-03-16 02:49:27 [TestNG-tests-1] INFO  Scenario3_LoginTest - Logging in with email: User1742073554892@test.com
+2025-03-16 02:49:29 [TestNG-tests-1] INFO  Scenario3_LoginTest - Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
+2025-03-16 02:49:29 [TestNG-tests-1] INFO  Scenario3_LoginTest - Login successful.
+2025-03-16 02:49:31 [TestNG-tests-1] INFO  Scenario3_LoginTest - User signed out successfully.
+2025-03-16 02:49:31 [TestNG-tests-1] INFO  Scenario3_LoginTest - Screenshot captured: 'login_Test'.
+2025-03-16 02:49:31 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:49:31 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:49:31 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:49:31 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:49:37 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:49:37 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-16 02:49:39 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:49:41 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:49:46 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:49:46 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-16 02:49:48 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:49:48 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with blank credentials.
+2025-03-16 02:49:48 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-16 02:49:49 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-16 02:49:49 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:49:49 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:49:49 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:49:49 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:49:54 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:49:54 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:49:56 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:50:02 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:50:02 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-16 02:50:04 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:50:04 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-16 02:50:04 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 02:50:04 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-16 02:50:05 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:50:05 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:50:05 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:50:05 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:50:10 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:50:10 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-16 02:50:11 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:50:11 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-16 02:50:11 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-16 02:50:12 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-16 02:50:12 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:50:12 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:50:12 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:50:12 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:50:18 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:50:18 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-16 02:50:19 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:50:22 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Logged in with valid credentials.
+2025-03-16 02:50:24 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - User logged out successfully.
+2025-03-16 02:50:25 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-16 02:50:27 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted re-login.
+2025-03-16 02:50:27 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - User successfully logged in again.
+2025-03-16 02:50:27 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-16 02:50:28 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:50:28 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:50:28 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:50:28 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:50:33 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:50:35 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-16 02:50:35 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - Total links found: 79
+2025-03-16 02:50:36 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-16 02:50:36 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 02:50:37 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-16 02:50:37 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-16 02:50:38 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-16 02:50:39 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-16 02:50:41 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-16 02:50:41 [TestNG-tests-1] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 02:50:41 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-16 02:50:41 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-16 02:50:42 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-16 02:50:42 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-16 02:50:43 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-16 02:50:43 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-16 02:50:44 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-16 02:50:44 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-16 02:50:44 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-16 02:50:45 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-16 02:50:45 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-16 02:50:46 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-16 02:50:46 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-16 02:50:47 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-16 02:50:47 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-16 02:50:47 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-16 02:50:48 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-16 02:50:48 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-16 02:50:49 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-16 02:50:49 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-16 02:50:49 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-16 02:50:50 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-16 02:50:50 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-16 02:50:51 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-16 02:50:51 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-16 02:50:52 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-16 02:50:52 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-16 02:50:52 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-16 02:50:52 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 02:50:53 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-16 02:50:54 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-16 02:50:54 [TestNG-tests-1] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 02:50:54 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-16 02:50:55 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-16 02:50:55 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-16 02:50:55 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-16 02:50:56 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:50:56 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:50:57 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-16 02:50:57 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-16 02:50:58 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-16 02:50:58 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:50:58 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:50:59 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-16 02:50:59 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-16 02:51:00 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:00 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:00 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-16 02:51:01 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-16 02:51:01 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:02 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:02 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-16 02:51:03 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-16 02:51:03 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-16 02:51:03 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:04 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:04 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-16 02:51:05 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-16 02:51:05 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-16 02:51:06 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:06 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 02:51:07 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-16 02:51:07 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-16 02:51:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-16 02:51:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-16 02:51:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-16 02:51:09 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-16 02:51:09 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-16 02:51:09 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-16 02:51:10 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-16 02:51:10 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-16 02:51:10 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-16 02:51:10 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:51:10 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:51:11 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:51:11 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:51:14 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:51:16 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:51:17 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 02:51:18 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:51:18 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:51:18 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:51:18 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:51:24 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:51:24 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:51:24 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:51:28 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:51:28 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:51:28 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:51:32 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:51:32 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:51:32 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:51:36 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 02:51:36 [TestNG-tests-1] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 02:51:36 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 02:51:40 [TestNG-tests-1] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 02:51:42 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:51:43 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 02:51:44 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:51:44 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 02:51:44 [TestNG-tests-1] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 02:51:44 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 02:51:48 [TestNG-tests-1] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 02:53:00 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-16 02:53:01 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:53:01 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:53:02 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:53:05 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:53:11 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:53:13 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 02:53:13 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 02:53:13 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 02:53:14 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:53:14 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:53:14 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:53:15 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:53:17 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:53:22 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:53:22 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Navigating to the signup page.
+2025-03-16 02:53:24 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Registering user with email: User1742073804316@test.com
+2025-03-16 02:53:28 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User ID Generated: User1742073804316@test.com
+2025-03-16 02:53:28 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Password Generated: Aeiou@6401
+2025-03-16 02:53:28 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-16 02:53:28 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User registration successful.
+2025-03-16 02:53:29 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User signed out successfully.
+2025-03-16 02:53:30 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-16 02:53:31 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:53:31 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:53:31 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:53:31 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:53:33 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:53:38 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:53:38 [TestNG-tests-1] INFO  Scenario3_LoginTest - Navigating to the login page.
+2025-03-16 02:53:39 [TestNG-tests-1] INFO  Scenario3_LoginTest - Logging in with email: User1742073804316@test.com
+2025-03-16 02:53:42 [TestNG-tests-1] INFO  Scenario3_LoginTest - Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
+2025-03-16 02:53:42 [TestNG-tests-1] INFO  Scenario3_LoginTest - Login successful.
+2025-03-16 02:53:44 [TestNG-tests-1] INFO  Scenario3_LoginTest - User signed out successfully.
+2025-03-16 02:53:44 [TestNG-tests-1] INFO  Scenario3_LoginTest - Screenshot captured: 'login_Test'.
+2025-03-16 02:53:45 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:53:45 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:53:45 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:53:45 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:53:48 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:53:54 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:53:54 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-16 02:53:55 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:53:57 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-16 02:53:57 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-16 02:53:57 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-16 02:53:58 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:53:58 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:53:58 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:53:58 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:54:01 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:54:07 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:54:07 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-16 02:54:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:54:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with blank credentials.
+2025-03-16 02:54:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-16 02:54:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-16 02:54:10 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:54:10 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:54:10 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:54:10 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:54:13 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:54:18 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:54:18 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-16 02:54:20 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:54:20 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-16 02:54:20 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 02:54:21 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-16 02:54:22 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:54:22 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:54:22 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:54:22 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:54:25 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:54:29 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:54:29 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-16 02:54:30 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:54:31 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-16 02:54:31 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 02:54:31 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-16 02:54:32 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:54:32 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:54:32 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:54:32 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:54:35 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:54:38 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:54:38 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-16 02:54:40 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:54:40 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-16 02:54:40 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-16 02:54:40 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-16 02:54:41 [TestNG-tests-1] INFO  BaseTest - Browser Closed
+2025-03-16 02:54:41 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:54:41 [TestNG-tests-1] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:54:41 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:54:44 [TestNG-tests-1] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:54:48 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:54:48 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-16 02:54:50 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 02:54:53 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Logged in with valid credentials.
+2025-03-16 02:54:54 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - User logged out successfully.
+2025-03-16 02:55:54 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-16 02:55:54 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:55:54 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 02:55:54 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 02:55:55 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 02:55:55 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 02:55:55 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:55:55 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:55:55 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 02:55:55 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 02:55:58 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 02:56:00 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:56:03 [TestNG-tests-2] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 02:56:03 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 02:56:03 [TestNG-tests-2] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 02:56:04 [TestNG-tests-2] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 02:56:05 [TestNG-tests-2] INFO  BaseTest - Browser Closed
+2025-03-16 02:56:05 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:56:05 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:56:05 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:56:10 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:56:10 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:56:10 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:56:11 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website
+2025-03-16 02:56:13 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:56:14 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:56:14 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:56:14 [TestNG-tests-3] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 02:56:14 [TestNG-tests-3] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 02:56:14 [TestNG-tests-3] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 02:56:16 [TestNG-tests-3] INFO  BaseTest - Browser Closed
+2025-03-16 02:56:16 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 02:56:16 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 02:56:16 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 02:56:17 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 02:56:17 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 02:56:17 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 02:56:22 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:03:29 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\Gaurav\eclipse-workspace\TestDemo\Testng.xml
+
+2025-03-16 03:03:30 [main] INFO  BaseTest - Extent Report setup completed.
+2025-03-16 03:03:30 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:03:30 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:03:30 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:03:31 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:03:31 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:03:31 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:03:31 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:03:32 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:03:32 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:03:32 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:03:35 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:03:37 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:03:38 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:03:40 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 03:03:40 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 03:03:40 [TestNG-tests-1] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 03:03:40 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:03:40 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:03:41 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:03:41 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:03:41 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:03:41 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:03:42 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:03:43 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:03:44 [TestNG-tests-2] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 03:03:44 [TestNG-tests-2] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 03:03:45 [TestNG-tests-3] INFO  Scenario1_HomePageTest - Home Page is loaded Successfully
+2025-03-16 03:03:45 [TestNG-tests-3] INFO  Scenario1_HomePageTest - Successfully Verified HomePage
+2025-03-16 03:03:45 [TestNG-tests-2] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 03:03:45 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:03:45 [TestNG-tests-3] INFO  Scenario1_HomePageTest - Screenshot captured: 'is_Home_Page_Displayed'.
+2025-03-16 03:03:45 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:03:46 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:03:46 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:03:46 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:03:46 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:03:47 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:03:47 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:03:47 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:03:47 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:03:49 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:03:49 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Navigating to the signup page.
+2025-03-16 03:03:49 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:03:51 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Registering user with email: User1742074431690@test.com
+2025-03-16 03:03:54 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:03:56 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User ID Generated: User1742074431690@test.com
+2025-03-16 03:03:56 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Password Generated: Aeiou@6401
+2025-03-16 03:03:56 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:03:56 [TestNG-tests-2] INFO  Scenario2_SignUpTest - Navigating to the signup page.
+2025-03-16 03:03:56 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-16 03:03:56 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User registration successful.
+2025-03-16 03:03:57 [TestNG-tests-2] INFO  Scenario2_SignUpTest - Registering user with email: User1742074437882@test.com
+2025-03-16 03:03:58 [TestNG-tests-1] INFO  Scenario2_SignUpTest - User signed out successfully.
+2025-03-16 03:03:58 [TestNG-tests-1] INFO  Scenario2_SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-16 03:03:58 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:03:59 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:03:59 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:03:59 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:03:59 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:04:00 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:04:02 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:02 [TestNG-tests-3] INFO  Scenario2_SignUpTest - Navigating to the signup page.
+2025-03-16 03:04:02 [TestNG-tests-2] INFO  Scenario2_SignUpTest - User ID Generated: User1742074437882@test.com
+2025-03-16 03:04:02 [TestNG-tests-2] INFO  Scenario2_SignUpTest - Password Generated: Aeiou@6401
+2025-03-16 03:04:02 [TestNG-tests-2] INFO  Scenario2_SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-16 03:04:02 [TestNG-tests-2] INFO  Scenario2_SignUpTest - User registration successful.
+2025-03-16 03:04:03 [TestNG-tests-3] INFO  Scenario2_SignUpTest - Registering user with email: User1742074443799@test.com
+2025-03-16 03:04:04 [TestNG-tests-2] INFO  Scenario2_SignUpTest - User signed out successfully.
+2025-03-16 03:04:04 [TestNG-tests-2] INFO  Scenario2_SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-16 03:04:04 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:05 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:05 [TestNG-tests-1] INFO  Scenario3_LoginTest - Navigating to the login page.
+2025-03-16 03:04:05 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:05 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:04:05 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:04:05 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:04:07 [TestNG-tests-1] INFO  Scenario3_LoginTest - Logging in with email: User1742074443799@test.com
+2025-03-16 03:04:08 [TestNG-tests-3] INFO  Scenario2_SignUpTest - User ID Generated: User1742074443799@test.com
+2025-03-16 03:04:08 [TestNG-tests-3] INFO  Scenario2_SignUpTest - Password Generated: Aeiou@6401
+2025-03-16 03:04:08 [TestNG-tests-3] INFO  Scenario2_SignUpTest - Verifying success message: Expected - 'Thank you for registering with Main Website Store.', Actual - 'Thank you for registering with Main Website Store.'.
+2025-03-16 03:04:08 [TestNG-tests-3] INFO  Scenario2_SignUpTest - User registration successful.
+2025-03-16 03:04:09 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:04:09 [TestNG-tests-1] INFO  Scenario3_LoginTest - Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
+2025-03-16 03:04:09 [TestNG-tests-1] INFO  Scenario3_LoginTest - Login successful.
+2025-03-16 03:04:10 [TestNG-tests-3] INFO  Scenario2_SignUpTest - User signed out successfully.
+2025-03-16 03:04:11 [TestNG-tests-3] INFO  Scenario2_SignUpTest - Screenshot captured: 'test_User_Registration'.
+2025-03-16 03:04:11 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:12 [TestNG-tests-1] INFO  Scenario3_LoginTest - User signed out successfully.
+2025-03-16 03:04:12 [TestNG-tests-1] INFO  Scenario3_LoginTest - Screenshot captured: 'login_Test'.
+2025-03-16 03:04:12 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:13 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:13 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:04:13 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:04:13 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:04:13 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:13 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:04:13 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:04:13 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:04:14 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:04:17 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:17 [TestNG-tests-2] INFO  Scenario3_LoginTest - Navigating to the login page.
+2025-03-16 03:04:19 [TestNG-tests-2] INFO  Scenario3_LoginTest - Logging in with email: User1742074443799@test.com
+2025-03-16 03:04:19 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:19 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-16 03:04:21 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:04:21 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:04:22 [TestNG-tests-2] INFO  Scenario3_LoginTest - Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
+2025-03-16 03:04:22 [TestNG-tests-2] INFO  Scenario3_LoginTest - Login successful.
+2025-03-16 03:04:23 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-16 03:04:23 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-16 03:04:24 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-16 03:04:24 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:24 [TestNG-tests-2] INFO  Scenario3_LoginTest - User signed out successfully.
+2025-03-16 03:04:24 [TestNG-tests-2] INFO  Scenario3_LoginTest - Screenshot captured: 'login_Test'.
+2025-03-16 03:04:24 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:24 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:24 [TestNG-tests-3] INFO  Scenario3_LoginTest - Navigating to the login page.
+2025-03-16 03:04:24 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:24 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:04:24 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:04:24 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:04:25 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:25 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:04:25 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:04:25 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:04:26 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:04:28 [TestNG-tests-3] INFO  Scenario3_LoginTest - Logging in with email: User1742074443799@test.com
+2025-03-16 03:04:28 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:04:32 [TestNG-tests-3] INFO  Scenario3_LoginTest - Verifying welcome message: Expected - 'Home Page', Actual - 'Home Page'.
+2025-03-16 03:04:32 [TestNG-tests-3] INFO  Scenario3_LoginTest - Login successful.
+2025-03-16 03:04:37 [TestNG-tests-3] INFO  Scenario3_LoginTest - User signed out successfully.
+2025-03-16 03:04:37 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:37 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-16 03:04:37 [TestNG-tests-3] INFO  Scenario3_LoginTest - Screenshot captured: 'login_Test'.
+2025-03-16 03:04:37 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:39 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:04:41 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:41 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:04:41 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:04:41 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:04:42 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-16 03:04:42 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Invalid login attempt failed as expected.
+2025-03-16 03:04:42 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Credentials_Login.
+2025-03-16 03:04:42 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:43 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:43 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:04:43 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:04:43 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:04:46 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:04:47 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:04:53 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:53 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Credentials_Login
+2025-03-16 03:04:53 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:53 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-16 03:04:54 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:04:55 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:04:55 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Attempted login with blank credentials.
+2025-03-16 03:04:55 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-16 03:04:55 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-16 03:04:55 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:04:56 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:56 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:04:56 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:04:56 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:04:57 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Entered invalid credentials and attempted login.
+2025-03-16 03:04:57 [TestNG-tests-3] ERROR BaseTest - Test Failed: {}
+java.lang.AssertionError: Expected error message not displayed! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.11.0.jar:7.11.0]
+	at testcases.Scenario4_Invalid_TestCases.test_Invalid_Credentials_Login(Scenario4_Invalid_TestCases.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-03-16 03:04:59 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:04:59 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:04:59 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:04:59 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:04:59 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:04:59 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-16 03:05:00 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:05:01 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:02 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with blank credentials.
+2025-03-16 03:05:02 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-16 03:05:02 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-16 03:05:02 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:04 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:04 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:05:04 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:05:04 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:05:05 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:05:06 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:05:08 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:08 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-16 03:05:09 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:09 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Starting test: test_Blank_Fields_Login
+2025-03-16 03:05:10 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:10 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-16 03:05:10 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 03:05:10 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-16 03:05:10 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:11 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:11 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-16 03:05:12 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:12 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:05:12 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:05:12 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:05:13 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:13 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-16 03:05:13 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 03:05:13 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:13 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-16 03:05:13 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:14 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Attempted login with blank credentials.
+2025-03-16 03:05:14 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Blank login attempt failed as expected.
+2025-03-16 03:05:14 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:14 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:05:14 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Blank_Fields_Login.
+2025-03-16 03:05:14 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:14 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:05:14 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:05:14 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:05:16 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:05:17 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:17 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:05:17 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:05:17 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:05:23 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:23 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-16 03:05:23 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:05:25 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:26 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-16 03:05:27 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 03:05:27 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-16 03:05:27 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:28 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:28 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:05:28 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:05:28 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:05:28 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:28 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Starting test: testInvalidEmailidField
+2025-03-16 03:05:31 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:05:31 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:32 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Attempted login with an incomplete email.
+2025-03-16 03:05:32 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 03:05:32 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Screenshot captured: testInvalidEmailidField.
+2025-03-16 03:05:32 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:34 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:34 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:05:34 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:05:34 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:05:36 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:36 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-16 03:05:39 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:39 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-16 03:05:39 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-16 03:05:40 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-16 03:05:40 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:40 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:05:41 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:41 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:05:41 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:05:41 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:05:44 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:05:46 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:46 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-16 03:05:47 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:47 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-16 03:05:48 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:49 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-16 03:05:49 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 03:05:49 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-16 03:05:49 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:51 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:05:51 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:05:51 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:05:51 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:05:53 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:56 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:05:56 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Logged in with valid credentials.
+2025-03-16 03:05:57 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:57 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Invalid_Email_Format
+2025-03-16 03:05:59 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:05:59 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - User logged out successfully.
+2025-03-16 03:05:59 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted login with an incorrect email format.
+2025-03-16 03:05:59 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Invalid email format login attempt failed as expected.
+2025-03-16 03:05:59 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Invalid_Email_Format.
+2025-03-16 03:05:59 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:05:59 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:05:59 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-16 03:06:00 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-16 03:06:00 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:00 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:06:00 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:06:00 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:06:01 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:06:02 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-16 03:06:02 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:06:03 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Attempted re-login.
+2025-03-16 03:06:03 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - User successfully logged in again.
+2025-03-16 03:06:03 [TestNG-tests-2] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-16 03:06:03 [TestNG-tests-2] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:06:04 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:04 [TestNG-tests-2] INFO  BaseTest - Initializing WebDriver for browser: edge
+2025-03-16 03:06:04 [TestNG-tests-2] INFO  WebDriverManager - Using msedgedriver 134.0.3124.68 (resolved driver for Edge 134)
+2025-03-16 03:06:04 [TestNG-tests-2] INFO  WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Gaurav\.cache\selenium\msedgedriver\win64\134.0.3124.68\msedgedriver.exe
+2025-03-16 03:06:07 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:06:07 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_SQLInjection_Attempt
+2025-03-16 03:06:07 [TestNG-tests-2] INFO  BaseTest - Edge initialized successfully.
+2025-03-16 03:06:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:06:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted SQL Injection in login.
+2025-03-16 03:06:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - SQL Injection attempt blocked as expected.
+2025-03-16 03:06:09 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_SQLInjection_Attempt.
+2025-03-16 03:06:09 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:06:10 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:10 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:06:10 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:06:10 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:06:11 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:06:12 [TestNG-tests-3] ERROR BaseTest - Test Failed: {}
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='email-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e97941c-76ad-4da0-8cd0-3bcd60879ca2, findElement {value=//div[@id='email-error'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37304, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2e97941c-76ad-4da0-8cd0-3bcd60879ca2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.29.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source) ~[?:?]
+	at pages.LoginPage.incompleteEmailAdd(LoginPage.java:55) ~[classes/:?]
+	at testcases.Scenario4_Invalid_TestCases.test_SQLInjection_Attempt(Scenario4_Invalid_TestCases.java:117) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-03-16 03:06:13 [TestNG-tests-2] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:06:13 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:13 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:06:13 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:06:13 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:06:15 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-16 03:06:15 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - Total links found: 79
+2025-03-16 03:06:16 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-16 03:06:16 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 03:06:16 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:06:16 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-16 03:06:17 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-16 03:06:18 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-16 03:06:18 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:06:18 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-16 03:06:19 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-16 03:06:19 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:06:21 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-16 03:06:21 [TestNG-tests-2] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 03:06:21 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-16 03:06:22 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Logged in with valid credentials.
+2025-03-16 03:06:22 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-16 03:06:22 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-16 03:06:23 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-16 03:06:23 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:06:23 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Starting test: test_Logout_And_Relogin
+2025-03-16 03:06:23 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-16 03:06:24 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-16 03:06:24 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-16 03:06:24 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - User logged out successfully.
+2025-03-16 03:06:24 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-16 03:06:25 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-16 03:06:25 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-16 03:06:26 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigated to Login Page.
+2025-03-16 03:06:26 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-16 03:06:26 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-16 03:06:26 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men.html | Status Code: 200
+2025-03-16 03:06:27 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 200
+2025-03-16 03:06:27 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 200
+2025-03-16 03:06:27 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 200
+2025-03-16 03:06:28 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 200
+2025-03-16 03:06:28 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 200
+2025-03-16 03:06:28 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Logged in with valid credentials.
+2025-03-16 03:06:28 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Attempted re-login.
+2025-03-16 03:06:28 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - User successfully logged in again.
+2025-03-16 03:06:29 [TestNG-tests-1] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-16 03:06:29 [TestNG-tests-1] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:06:29 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 200
+2025-03-16 03:06:29 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:29 [TestNG-tests-1] INFO  BaseTest - Initializing WebDriver for browser: chrome
+2025-03-16 03:06:29 [TestNG-tests-1] INFO  WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-16 03:06:29 [TestNG-tests-1] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gaurav\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-16 03:06:29 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 200
+2025-03-16 03:06:29 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 200
+2025-03-16 03:06:30 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 200
+2025-03-16 03:06:30 [TestNG-tests-1] INFO  BaseTest - Chrome initialized successfully.
+2025-03-16 03:06:30 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 200
+2025-03-16 03:06:30 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - User logged out successfully.
+2025-03-16 03:06:31 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 200
+2025-03-16 03:06:31 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 200
+2025-03-16 03:06:32 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Navigating back to Login Page for re-login.
+2025-03-16 03:06:32 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training.html | Status Code: 200
+2025-03-16 03:06:32 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 200
+2025-03-16 03:06:33 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 200
+2025-03-16 03:06:33 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 200
+2025-03-16 03:06:33 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 03:06:34 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-16 03:06:34 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-16 03:06:34 [TestNG-tests-2] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 03:06:35 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Attempted re-login.
+2025-03-16 03:06:35 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - User successfully logged in again.
+2025-03-16 03:06:35 [TestNG-tests-3] INFO  Scenario4_Invalid_TestCases - Screenshot captured: test_Logout_And_Relogin.
+2025-03-16 03:06:35 [TestNG-tests-3] INFO  BaseTest - Test Passed Successfully.
+2025-03-16 03:06:35 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 200
+2025-03-16 03:06:35 [TestNG-tests-1] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:06:35 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-16 03:06:36 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 200
+2025-03-16 03:06:36 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 200
+2025-03-16 03:06:36 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:36 [TestNG-tests-3] INFO  BaseTest - Initializing WebDriver for browser: firefox
+2025-03-16 03:06:36 [TestNG-tests-3] INFO  WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 136)
+2025-03-16 03:06:36 [TestNG-tests-3] INFO  WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Gaurav\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2025-03-16 03:06:36 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:36 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-16 03:06:36 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - Total links found: 79
+2025-03-16 03:06:37 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:37 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-16 03:06:37 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-16 03:06:37 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 03:06:38 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 200
+2025-03-16 03:06:38 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 200
+2025-03-16 03:06:38 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 200
+2025-03-16 03:06:39 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:39 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 200
+2025-03-16 03:06:39 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:39 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/ | Status Code: 200
+2025-03-16 03:06:39 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-16 03:06:40 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 200
+2025-03-16 03:06:40 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 200
+2025-03-16 03:06:40 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 200
+2025-03-16 03:06:40 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:40 [TestNG-tests-1] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 03:06:41 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:41 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 200
+2025-03-16 03:06:41 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-16 03:06:42 [TestNG-tests-3] INFO  BaseTest - Firefox initialized successfully.
+2025-03-16 03:06:42 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 200
+2025-03-16 03:06:42 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:43 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:43 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-16 03:06:43 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 200
+2025-03-16 03:06:43 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 200
+2025-03-16 03:06:44 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women.html | Status Code: 200
+2025-03-16 03:06:44 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 200
+2025-03-16 03:06:44 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 200
+2025-03-16 03:06:44 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:45 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 200
+2025-03-16 03:06:45 [TestNG-tests-3] INFO  BaseTest - Navigated to Magento website.
+2025-03-16 03:06:45 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:45 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 200
+2025-03-16 03:06:45 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-16 03:06:46 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 200
+2025-03-16 03:06:46 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 200
+2025-03-16 03:06:46 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 200
+2025-03-16 03:06:46 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 200
+2025-03-16 03:06:47 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:47 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 200
+2025-03-16 03:06:47 [TestNG-tests-2] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/# | Status Code: 200
+2025-03-16 03:06:47 [TestNG-tests-3] INFO  Scenario5_HomePageLinksTest - Navigated to URL: https://magento.softwaretestingboard.com/
+2025-03-16 03:06:47 [TestNG-tests-3] INFO  Scenario5_HomePageLinksTest - Total links found: 77
+2025-03-16 03:06:47 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 200
+2025-03-16 03:06:48 [TestNG-tests-3] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/#contentarea | Status Code: 200
+2025-03-16 03:06:48 [TestNG-tests-1] INFO  Scenario5_HomePageLinksTest - ✅ Valid Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 200
+2025-03-16 03:06:48 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 03:06:48 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 520
+2025-03-16 03:06:48 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men.html | Status Code: 404
+2025-03-16 03:06:48 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 404
+2025-03-16 03:06:48 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-16 03:06:48 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-16 03:06:48 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 404
+2025-03-16 03:06:48 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-16 03:06:49 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/ | Status Code: 404
+2025-03-16 03:06:49 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 404
+2025-03-16 03:06:49 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-16 03:06:49 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/checkout/cart/ | Status Code: 404
+2025-03-16 03:06:49 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 404
+2025-03-16 03:06:49 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-16 03:06:49 [TestNG-tests-3] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 03:06:49 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/#store.menu | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/what-is-new.html | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-16 03:06:50 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women.html | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/tops-women.html | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html | Status Code: 404
+2025-03-16 03:06:51 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-2] ERROR Scenario5_HomePageLinksTest - Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-16 03:06:52 [TestNG-tests-2] ERROR BaseTest - Test Failed: {}
+java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://buymeacoffee.com/softwaretestingb, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.11.0.jar:7.11.0]
+	at testcases.Scenario5_HomePageLinksTest.checkBrokenLinks(Scenario5_HomePageLinksTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-03-16 03:06:52 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/tops-women/tees-women.html | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html | Status Code: 404
+2025-03-16 03:06:52 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 404
+2025-03-16 03:06:53 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/bottoms-women.html | Status Code: 404
+2025-03-16 03:06:53 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/training.html | Status Code: 404
+2025-03-16 03:06:53 [TestNG-tests-2] INFO  BaseTest - Browser closed.
+2025-03-16 03:06:53 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html | Status Code: 404
+2025-03-16 03:06:53 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 404
+2025-03-16 03:06:53 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html | Status Code: 404
+2025-03-16 03:06:53 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 404
+2025-03-16 03:06:54 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men.html | Status Code: 404
+2025-03-16 03:06:54 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 404
+2025-03-16 03:06:54 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 03:06:54 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men.html | Status Code: 404
+2025-03-16 03:06:54 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 404
+2025-03-16 03:06:54 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html | Status Code: 404
+2025-03-16 03:06:55 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-16 03:06:55 [TestNG-tests-1] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 03:06:55 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html | Status Code: 404
+2025-03-16 03:06:55 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 404
+2025-03-16 03:06:55 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/tees-men.html | Status Code: 404
+2025-03-16 03:06:55 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 404
+2025-03-16 03:06:56 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html | Status Code: 404
+2025-03-16 03:06:56 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 404
+2025-03-16 03:06:56 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/bottoms-men.html | Status Code: 404
+2025-03-16 03:06:56 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 404
+2025-03-16 03:06:56 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html | Status Code: 404
+2025-03-16 03:06:56 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:06:57 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html | Status Code: 404
+2025-03-16 03:06:57 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:06:57 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear.html | Status Code: 404
+2025-03-16 03:06:57 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 404
+2025-03-16 03:06:57 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear/bags.html | Status Code: 404
+2025-03-16 03:06:57 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 404
+2025-03-16 03:06:58 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear/fitness-equipment.html | Status Code: 404
+2025-03-16 03:06:58 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 404
+2025-03-16 03:06:58 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/gear/watches.html | Status Code: 404
+2025-03-16 03:06:58 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:06:58 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/training.html | Status Code: 404
+2025-03-16 03:06:58 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:06:59 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/training/training-video.html | Status Code: 404
+2025-03-16 03:06:59 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 404
+2025-03-16 03:06:59 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sale.html | Status Code: 404
+2025-03-16 03:06:59 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 404
+2025-03-16 03:06:59 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/#store.links | Status Code: 404
+2025-03-16 03:06:59 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://buymeacoffee.com/softwaretestingb | Status Code: 403
+2025-03-16 03:06:59 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:00 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/ | Status Code: 404
+2025-03-16 03:07:00 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:00 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-16 03:07:00 [TestNG-tests-3] WARN  Scenario5_HomePageLinksTest - ⚠ Empty or missing href attribute found.
+2025-03-16 03:07:00 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 404
+2025-03-16 03:07:00 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/collections/yoga-new.html | Status Code: 404
+2025-03-16 03:07:00 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 404
+2025-03-16 03:07:01 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 404
+2025-03-16 03:07:01 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:01 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/radiant-tee.html | Status Code: 404
+2025-03-16 03:07:01 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:01 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/radiant-tee.html#reviews | Status Code: 404
+2025-03-16 03:07:01 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 404
+2025-03-16 03:07:02 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:02 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 404
+2025-03-16 03:07:02 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:02 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 404
+2025-03-16 03:07:02 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 404
+2025-03-16 03:07:02 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:03 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html | Status Code: 404
+2025-03-16 03:07:03 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:03 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews | Status Code: 404
+2025-03-16 03:07:03 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 404
+2025-03-16 03:07:03 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:03 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 404
+2025-03-16 03:07:04 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:04 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 404
+2025-03-16 03:07:04 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 404
+2025-03-16 03:07:04 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:04 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/argus-all-weather-tank.html | Status Code: 404
+2025-03-16 03:07:05 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:05 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:05 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:05 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 404
+2025-03-16 03:07:05 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 403
+2025-03-16 03:07:06 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-16 03:07:06 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/hero-hoodie.html | Status Code: 404
+2025-03-16 03:07:06 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-16 03:07:06 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:06 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-16 03:07:06 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:07 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-16 03:07:07 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 404
+2025-03-16 03:07:07 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-16 03:07:07 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/fusion-backpack.html | Status Code: 404
+2025-03-16 03:07:07 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-16 03:07:07 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/fusion-backpack.html#reviews | Status Code: 404
+2025-03-16 03:07:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-16 03:07:08 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/create/ | Status Code: 404
+2025-03-16 03:07:08 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/customer/account/forgotpassword/ | Status Code: 404
+2025-03-16 03:07:08 [TestNG-tests-1] ERROR Scenario5_HomePageLinksTest - Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/]
+2025-03-16 03:07:08 [TestNG-tests-1] ERROR BaseTest - Test Failed: {}
+java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/customer/account/forgotpassword/] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.11.0.jar:7.11.0]
+	at testcases.Scenario5_HomePageLinksTest.checkBrokenLinks(Scenario5_HomePageLinksTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-03-16 03:07:08 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 404
+2025-03-16 03:07:09 [TestNG-tests-1] INFO  BaseTest - Browser closed.
+2025-03-16 03:07:09 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html | Status Code: 404
+2025-03-16 03:07:09 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews | Status Code: 404
+2025-03-16 03:07:09 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:10 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/# | Status Code: 404
+2025-03-16 03:07:10 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion | Status Code: 403
+2025-03-16 03:07:10 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo | Status Code: 403
+2025-03-16 03:07:11 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us | Status Code: 403
+2025-03-16 03:07:11 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe | Status Code: 403
+2025-03-16 03:07:11 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/search/term/popular/ | Status Code: 404
+2025-03-16 03:07:12 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/ | Status Code: 404
+2025-03-16 03:07:12 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/catalogsearch/advanced/ | Status Code: 404
+2025-03-16 03:07:12 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - ❌ Broken Link: https://magento.softwaretestingboard.com/sales/guest/form/ | Status Code: 404
+2025-03-16 03:07:12 [TestNG-tests-3] ERROR Scenario5_HomePageLinksTest - Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/, https://magento.softwaretestingboard.com/checkout/cart/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/#store.menu, https://magento.softwaretestingboard.com/what-is-new.html, https://magento.softwaretestingboard.com/women.html, https://magento.softwaretestingboard.com/women/tops-women.html, https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html, https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html, https://magento.softwaretestingboard.com/women/tops-women/tees-women.html, https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html, https://magento.softwaretestingboard.com/women/bottoms-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/]
+2025-03-16 03:07:12 [TestNG-tests-3] ERROR BaseTest - Test Failed: {}
+java.lang.AssertionError: Broken links found: [https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/, https://magento.softwaretestingboard.com/checkout/cart/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/#store.menu, https://magento.softwaretestingboard.com/what-is-new.html, https://magento.softwaretestingboard.com/women.html, https://magento.softwaretestingboard.com/women/tops-women.html, https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html, https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html, https://magento.softwaretestingboard.com/women/tops-women/tees-women.html, https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html, https://magento.softwaretestingboard.com/women/bottoms-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/pants-women.html, https://magento.softwaretestingboard.com/women/bottoms-women/shorts-women.html, https://magento.softwaretestingboard.com/men.html, https://magento.softwaretestingboard.com/men/tops-men.html, https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html, https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html, https://magento.softwaretestingboard.com/men/tops-men/tees-men.html, https://magento.softwaretestingboard.com/men/tops-men/tanks-men.html, https://magento.softwaretestingboard.com/men/bottoms-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/pants-men.html, https://magento.softwaretestingboard.com/men/bottoms-men/shorts-men.html, https://magento.softwaretestingboard.com/gear.html, https://magento.softwaretestingboard.com/gear/bags.html, https://magento.softwaretestingboard.com/gear/fitness-equipment.html, https://magento.softwaretestingboard.com/gear/watches.html, https://magento.softwaretestingboard.com/training.html, https://magento.softwaretestingboard.com/training/training-video.html, https://magento.softwaretestingboard.com/sale.html, https://magento.softwaretestingboard.com/#store.links, https://buymeacoffee.com/softwaretestingb, https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/, https://magento.softwaretestingboard.com/customer/account/create/, https://magento.softwaretestingboard.com/collections/yoga-new.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html, https://magento.softwaretestingboard.com/radiant-tee.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html, https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/argus-all-weather-tank.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/hero-hoodie.html, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html, https://magento.softwaretestingboard.com/fusion-backpack.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html, https://magento.softwaretestingboard.com/push-it-messenger-bag.html#reviews, https://magento.softwaretestingboard.com/#, https://magento.softwaretestingboard.com/#, https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion, https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo, https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us, https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe, https://magento.softwaretestingboard.com/search/term/popular/, https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/, https://magento.softwaretestingboard.com/catalogsearch/advanced/, https://magento.softwaretestingboard.com/sales/guest/form/] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.11.0.jar:7.11.0]
+	at testcases.Scenario5_HomePageLinksTest.checkBrokenLinks(Scenario5_HomePageLinksTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-03-16 03:07:14 [TestNG-tests-3] INFO  BaseTest - Browser closed.
+2025-03-16 03:07:14 [main] INFO  BaseTest - Extent Report generated.
