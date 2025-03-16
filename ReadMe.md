@@ -37,7 +37,7 @@ Automated Screenshot Capturing in Extent Reports
 
 📝 Test Cases Implemented
 
-✅ HomePage is Displayed ✅ Account Registration✅ Valid User Login✅ Invalid Credentials✅ Blank Fields Validation✅ Invalid Email Format Handling✅ SQL Injection Attempt✅ Logout and Re-login✅ Locator Based Testing For Broken Pages on HomePage
+✅ HomePage is Displayed ✅ Account Registration✅ Valid User Login✅ Invalid Credentials✅ Blank Fields Validation✅ Invalid Email Format Handling✅ SQL Injection Attempt✅ Logout and Re-login
 
 📂 Project Structure
 
@@ -74,7 +74,7 @@ TestDemo/
 │   │   │   ├── SignUpTest.java
 │   │   │   ├── LoginTest.java
 │   │   │   ├── Invalid_TestCases.java
-│   │   │   ├── AllPagesLinksTest.java
+│   │   │  
 │   ├── resources/
 │   │   ├── TestData.xlsx        # Excel file for test data
 │── target/                      # Compiled output directory
