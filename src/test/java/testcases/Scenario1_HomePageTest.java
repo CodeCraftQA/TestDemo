@@ -21,6 +21,7 @@ public class Scenario1_HomePageTest extends BaseTest {
     public void is_Home_Page_Displayed() {
         test.get().log(Status.INFO, "Navigating to the Magento homepage.");
         driver.get("https://magento.softwaretestingboard.com/");
+
         logger.info("Home Page is loaded Successfully");
 
         String actualTitle = driver.getTitle();
@@ -29,10 +30,13 @@ public class Scenario1_HomePageTest extends BaseTest {
         test.get().log(Status.INFO, "Verifying page title: Expected - '" + expectedTitle + "', Actual - '" + actualTitle + "'.");
 
         Assert.assertEquals(actualTitle, expectedTitle, "Home Page title mismatch!");
-        test.get().log(Status.PASS, "Home Page is displayed successfully.");
 
+        // Attach a screenshot for validation
+        String screenshotPath = ScreenshotUtil.takeScreenshot(driver, "is_Home_Page_Displayed");
+        test.get().addScreenCaptureFromPath(screenshotPath);
+
+        test.get().log(Status.PASS, "Home Page is displayed successfully.");
         logger.info("Successfully Verified HomePage");
-        ScreenshotUtil.takeScreenshot(driver, "is_Home_Page_Displayed");
-        logger.info("Screenshot captured: 'is_Home_Page_Displayed'.");
     }
+
 }

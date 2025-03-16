@@ -24,6 +24,7 @@ import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 
@@ -45,8 +46,11 @@ public class BaseTest {
         extent.attachReporter(sparkReporter);
         extent.setSystemInfo("OS", System.getProperty("os.name"));
         extent.setSystemInfo("Java Version", System.getProperty("java.version"));
-        extent.setSystemInfo("Tester", "Your Name");
+        extent.setSystemInfo("Tester", "QA Team");
+        extent.setSystemInfo("Browser", "Chrome, Firefox, Edge");
         logger.info("Extent Report setup completed.");
+
+
     }
 
     @Parameters("browser")
@@ -121,11 +125,13 @@ public class BaseTest {
     @AfterMethod
     public void tearDownTest(ITestResult result) {
         ExtentTest extentTest = test.get();
+
         if (result.getStatus() == ITestResult.FAILURE) {
             String screenshotPath = takeScreenshot(result.getName());
             extentTest.fail("Test Failed: " + result.getThrowable());
-            extentTest.addScreenCaptureFromPath(screenshotPath);
+            extentTest.addScreenCaptureFromPath(screenshotPath);  // Attach screenshot
             logger.error("Test Failed: {}", result.getThrowable());
+
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             extentTest.pass("Test Passed Successfully.");
             logger.info("Test Passed Successfully.");
@@ -149,13 +155,17 @@ public class BaseTest {
     public String takeScreenshot(String testName) {
         try {
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String screenshotPath = System.getProperty("user.dir") + "/reports/screenshots/" + testName + "_" + new Date().getTime() + ".png";
+            String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+            String screenshotPath = System.getProperty("user.dir") + "/reports/screenshots/" + testName + "_" + timestamp + ".png";
+
             Files.createDirectories(Path.of(System.getProperty("user.dir") + "/reports/screenshots/"));
             Files.copy(srcFile.toPath(), Path.of(screenshotPath), StandardCopyOption.REPLACE_EXISTING);
+
             return screenshotPath;
         } catch (Exception e) {
             logger.error("Error capturing screenshot: ", e);
             return null;
         }
     }
+
 }

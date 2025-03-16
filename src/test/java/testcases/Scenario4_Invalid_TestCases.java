@@ -28,7 +28,7 @@ public class Scenario4_Invalid_TestCases extends BaseTest {
         logger.info("Entered invalid credentials and attempted login.");
 
         String errorMessage = loginPage.getErrorMessage();
-        Assert.assertTrue(errorMessage.contains("The account sign-in was incorrect or your account is disabled temporarily."),
+        Assert.assertTrue(errorMessage.contains("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later."),
                 "Expected error message not displayed!");
         logger.info("Invalid login attempt failed as expected.");
 
