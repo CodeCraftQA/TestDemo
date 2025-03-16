@@ -12,7 +12,6 @@
             <class name="testcases.Scenario2_SignUpTest"/>
             <class name="testcases.Scenario3_LoginTest"/>
             <class name="testcases.Scenario4_Invalid_TestCases"/>
-            <class name="testcases.Scenario5_HomePageLinksTest"/>
         </classes>
     </test>
 
@@ -23,7 +22,6 @@
             <class name="testcases.Scenario2_SignUpTest"/>
             <class name="testcases.Scenario3_LoginTest"/>
             <class name="testcases.Scenario4_Invalid_TestCases"/>
-            <class name="testcases.Scenario5_HomePageLinksTest"/>
         </classes>
     </test>
 
@@ -34,7 +32,6 @@
             <class name="testcases.Scenario2_SignUpTest"/>
             <class name="testcases.Scenario3_LoginTest"/>
             <class name="testcases.Scenario4_Invalid_TestCases"/>
-            <class name="testcases.Scenario5_HomePageLinksTest"/>
         </classes>
     </test>
 

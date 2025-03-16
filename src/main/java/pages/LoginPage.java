@@ -49,7 +49,7 @@ public class LoginPage extends BasePage {
         return emailPwdBlankMessage.getText();
     }
     public String getWelcomeMessage() {
-        return myAccountHeader.getText().trim(); // Ensure extra spaces are removed
+        return myAccountHeader.getText().trim();
     }
     public String incompleteEmailAdd(){
         return incompleteEmail.getText();

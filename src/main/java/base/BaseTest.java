@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utils.ConfigReader;
 
 import java.io.File;
 import java.io.IOException;
@@ -69,12 +70,10 @@ public class BaseTest {
 
             case "edge":
                 try {
-
                     Path parentDir = Path.of(System.getProperty("user.dir")).getParent();
                     Path miscDir = parentDir.resolve("misc");
                     Path edgeUserDataDir = miscDir.resolve("EdgeUserData");
 
-                    // Ensure the misc directory exists
                     Files.createDirectories(miscDir);
 
                     EdgeOptions edgeOptions = new EdgeOptions();
@@ -94,7 +93,6 @@ public class BaseTest {
                 }
                 break;
 
-
             case "chrome":
             default:
                 WebDriverManager.chromedriver().setup();
@@ -102,15 +100,22 @@ public class BaseTest {
                 chromeOptions.addArguments("--disable-popup-blocking");
                 chromeOptions.addArguments("--disable-gpu");
                 chromeOptions.addArguments("--ignore-certificate-errors");
-                //chromeOptions.addArguments("--headless=new");
                 driver = new ChromeDriver(chromeOptions);
                 logger.info("Chrome initialized successfully.");
                 break;
         }
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://magento.softwaretestingboard.com/");
-        logger.info("Navigated to Magento website.");
+
+
+        String baseURL = ConfigReader.getProperty("baseURL");
+        if (baseURL != null && !baseURL.isEmpty()) {
+            driver.navigate().to(baseURL);
+            logger.info("Navigated to: {}", baseURL);
+        } else {
+            logger.error("baseURL is not set in config.properties!");
+            throw new RuntimeException("baseURL is missing in config.properties.");
+        }
     }
 
     @AfterMethod
@@ -153,5 +158,4 @@ public class BaseTest {
             return null;
         }
     }
-
 }
