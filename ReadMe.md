@@ -106,9 +106,7 @@ Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge.
 
 📌 Future Enhancements
 
-✅ Integrate Extent Reports for better test reporting (Completed)
-
-✅ Complete Excel-Based Data-Driven Testing
+✅ Integrate Allure Reports for better test reporting (Under Process)
 
 ✅ Enable Headless Browser Execution (Completed)
 
