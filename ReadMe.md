@@ -27,8 +27,6 @@ User Authentication Tests (Signup, Login, Logout)
 
 Negative Test Scenarios (Invalid Login, SQL Injection, Blank Fields, Invalid Email Format)
 
-Data-Driven Testing (Excel Integration for Test Data) → Under Development
-
 Cross-Browser Testing 
 
 CI/CD Pipeline Integration (Jenkins, GitHub Actions)
