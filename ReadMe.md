@@ -100,8 +100,6 @@ Git & GitHub (Version Control)
 
 Jenkins & GitHub Actions (CI/CD Pipeline)
 
-Cross-Browser Testing
-
 Cross-Browser Testing: Supports execution on Chrome, Firefox, and Edge.
 
 📌 Future Enhancements
